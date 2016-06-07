@@ -1,0 +1,4 @@
+SCRUM
+
+inkremelntell och iterativ process. Grundsten i agil programutveckling.
+
