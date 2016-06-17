@@ -15,5 +15,6 @@
 \contentsline {subsection}{\numberline {3.3}Material och metoder}{6}
 \contentsline {section}{\numberline {4}Resultat}{7}
 \contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{7}
-\contentsline {subsection}{\numberline {4.2}title}{7}
+\contentsline {subsection}{\numberline {4.2}Styrkor och svagheter}{7}
+\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{7}
 \contentsline {section}{Referenser}{8}

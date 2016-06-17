@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  7 JUN 2016 16:22
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  17 JUN 2016 17:19
 entering extended mode
 **main.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.tex
@@ -367,7 +367,7 @@ Overfull \hbox (2.60674pt too wide) in paragraph at lines 14--18
 
 ]
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\luku_sisalto.tex [4]
-Overfull \hbox (0.83438pt too wide) in paragraph at lines 14--16
+Overfull \hbox (0.83438pt too wide) in paragraph at lines 15--17
 \T1/cmr/m/n/12 Agil ut-veck-ling är en me-tod, el-ler en sam-ling prin-ci-per, 
 för pro-gram-ut-veck-ling. Prin-ci-per-na
  []
@@ -399,9 +399,9 @@ c\dpi600\ecbx1200.pk> <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfo
 ur\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\
 fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\Jonathan\AppData\Loca
 l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk>
-Output written on main.pdf (8 pages, 92007 bytes).
+Output written on main.pdf (8 pages, 92773 bytes).
 PDF statistics:
- 276 PDF objects out of 1000 (max. 8388607)
+ 277 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
