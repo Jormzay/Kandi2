@@ -2,7 +2,6 @@
 \select@language {swedish}
 \select@language {swedish}
 \select@language {swedish}
-\contentsline {section}{K\IeC {\"a}ytetyt symbolit ja lyhenteet}{3}{section*.1}
 \contentsline {section}{\numberline {1}Inledning}{4}{section.1}
 \contentsline {section}{\numberline {2}Bakgund}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Agil utveckling}{5}{subsection.2.1}
@@ -14,8 +13,8 @@
 \contentsline {subsection}{\numberline {3.1}Syfte}{6}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Avgr\IeC {\"a}nsning}{6}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Material och metoder}{6}{subsection.3.3}
-\contentsline {section}{\numberline {4}Resultat}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Styrkor och svagheter}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{7}{subsection.4.3}
-\contentsline {section}{Referenser}{8}{subsection.4.3}
+\contentsline {section}{\numberline {4}Resultat}{8}{section.4}
+\contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{8}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Styrkor och svagheter}{8}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{8}{subsection.4.3}
+\contentsline {section}{Referenser}{9}{subsection.4.3}

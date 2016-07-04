@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -12,6 +12,12 @@
 Agile manifesto, 2001.
 \newblock URL \url{http://agilemanifesto.org}.
 \newblock Agile manifesto webbsida. Refererat 7.6.2016.
+
+\bibitem[ask()]{ask_matrix}
+Agile scaling knowledge matrix.
+\newblock URL \url{http://www.agilescaling.org/ask-matrix.html}.
+\newblock En matris sammanställd av agilescaling.org som innehåller basfakta
+  om aktuella ramverk för uppskalning av agila metoder.
 
 \bibitem[dad(2016)]{dad_web}
 Dicsiplined agile delivery (www), 2016.
