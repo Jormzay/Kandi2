@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{4}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -11,6 +11,21 @@
 \bibitem[agi(2001)]{agile_manifesto}
 Agile manifesto, 2001.
 \newblock URL \url{http://agilemanifesto.org}.
-\newblock {Agile manifesto webbsida. Refererat 7.6.2016}.
+\newblock Agile manifesto webbsida. Refererat 7.6.2016.
+
+\bibitem[dad(2016)]{dad_web}
+Dicsiplined agile delivery (www), 2016.
+\newblock URL \url{http://www.disciplinedagiledelivery.com/}.
+\newblock DaD webbisa. Refererat 30.6.2016.
+
+\bibitem[les(2014)]{less_web}
+Large scale scrum (www), 2014.
+\newblock URL \url{http://less.works/}.
+\newblock LeSS webbsida. Refererat 30.6.2016.
+
+\bibitem[saf(2010)]{safe_web}
+Scaled agile framework (www), 2010.
+\newblock URL \url{http://scaledagileframework.com/}.
+\newblock SAFe webbisda. Refererat 30.6.2016.
 
 \end{thebibliography}
