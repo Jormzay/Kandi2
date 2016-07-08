@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -28,6 +28,12 @@ Dicsiplined agile delivery (www), 2016.
 Large scale scrum (www), 2014.
 \newblock URL \url{http://less.works/}.
 \newblock LeSS webbsida. Refererat 30.6.2016.
+
+\bibitem[saf(2016)]{safe_principles}
+Scaled agile framework principles (www), 2016.
+\newblock URL
+  \url{http://scaledagileframework.com/safe-lean-agile-principles/}.
+\newblock SAFe principer. Refererat 8.7.2016.
 
 \bibitem[saf(2010)]{safe_web}
 Scaled agile framework (www), 2010.
