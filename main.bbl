@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{7}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -24,8 +24,13 @@ Dicsiplined agile delivery (www), 2016.
 \newblock URL \url{http://www.disciplinedagiledelivery.com/}.
 \newblock DaD webbisa. Refererat 30.6.2016.
 
-\bibitem[les(2014)]{less_web}
-Large scale scrum (www), 2014.
+\bibitem[les(2014{\natexlab{a}})]{less_principles}
+Large scale scrum principles overview (www), 2014{\natexlab{a}}.
+\newblock URL \url{http://less.works/less/principles/overview.html}.
+\newblock Översikt över LeSS principer. Refererat 8.7.2016.
+
+\bibitem[les(2014{\natexlab{b}})]{less_web}
+Large scale scrum (www), 2014{\natexlab{b}}.
 \newblock URL \url{http://less.works/}.
 \newblock LeSS webbsida. Refererat 30.6.2016.
 
