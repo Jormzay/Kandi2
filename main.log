@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  8 JUL 2016 15:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  10 JUL 2016 20:24
 entering extended mode
 **main.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.tex
@@ -515,18 +515,18 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 40.
  [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 \T1/cmr/m/n/12 till-gäng-lig do-ku-men-ta-tion. Böc-ker och tek-nis-ka spe-fi-c
 i-ka-tio-ner an-vänds.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+Underfull \hbox (badness 10000) in paragraph at lines 126--128
 
  []
 
 [7]
-Overfull \hbox (12.64148pt too wide) in paragraph at lines 128--129
+Overfull \hbox (12.64148pt too wide) in paragraph at lines 148--149
 []\T1/cmr/m/n/12 Källa: Ram-ver-kens re-spek-ti-ve hemsidor[[]; []; []], samt s
 ök-ning-ar i ve-ten-skap-li-ga da-ta-ba-ser(via
  []
@@ -584,7 +584,7 @@ eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Jonathan\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\J
 onathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (10 pages, 128623 bytes).
+Output written on main.pdf (10 pages, 129176 bytes).
 PDF statistics:
  453 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)
