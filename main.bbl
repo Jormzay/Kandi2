@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{8}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -18,6 +18,12 @@ Agile scaling knowledge matrix.
 \newblock URL \url{http://www.agilescaling.org/ask-matrix.html}.
 \newblock En matris sammanställd av agilescaling.org som innehåller basfakta
   om aktuella ramverk för uppskalning av agila metoder.
+
+\bibitem[dad(2014)]{dad_principles}
+Disciplined agile delivery principles and manifesto (www), 2014.
+\newblock URL
+  \url{http://www.disciplinedagiledelivery.com/disciplinedagilemanifesto/}.
+\newblock DAD Principer och manifest. Refererat 8.7.2016.
 
 \bibitem[dad(2016)]{dad_web}
 Dicsiplined agile delivery (www), 2016.
