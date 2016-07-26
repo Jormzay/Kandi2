@@ -15,9 +15,9 @@
 \contentsline {subsection}{\numberline {3.3}Material och metoder}{7}{subsection.3.3}
 \contentsline {section}{\numberline {4}Resultat}{9}{section.4}
 \contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Styrkor och svagheter}{9}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}SAFe}{9}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}LeSS}{9}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}DAD}{9}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{9}{subsection.4.3}
-\contentsline {section}{Referenser}{10}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.2}Anv\IeC {\"a}ndningsomr\IeC {\r a}den}{9}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}SAFe}{10}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}LeSS}{10}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}DAD}{10}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{10}{subsection.4.3}
+\contentsline {section}{Referenser}{11}{subsection.4.3}
