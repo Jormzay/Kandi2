@@ -5,10 +5,11 @@
 \contentsline {section}{\numberline {1}Inledning}{4}{section.1}
 \contentsline {section}{\numberline {2}Bakgund}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Agil utveckling}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Skalning av agil utveckling}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Large-Scale Scrum}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Scaled Agile Framework}{6}{subsection.2.4}
-\contentsline {subsection}{\numberline {2.5}Disciplined Agile}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.2}Scrum i korthet}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Skalning av agil utveckling}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Large-Scale Scrum}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Scaled Agile Framework}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Disciplined Agile}{6}{subsection.2.6}
 \contentsline {section}{\numberline {3}Syfte, avgr\IeC {\"a}nsningar, material och metoder}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Syfte}{7}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Avgr\IeC {\"a}nsning}{7}{subsection.3.2}

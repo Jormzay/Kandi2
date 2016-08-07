@@ -1,4 +1,4 @@
-\begin{thebibliography}{8}
+\begin{thebibliography}{9}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -50,5 +50,11 @@ Scaled agile framework principles (www), 2016.
 Scaled agile framework (www), 2010.
 \newblock URL \url{http://scaledagileframework.com/}.
 \newblock SAFe webbisda. Refererat 30.6.2016.
+
+\bibitem[scr(2016)]{scrum_guide}
+Scrum guide, 2016.
+\newblock URL
+  \url{http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf}.
+\newblock Scrum guide skriven och publicerad av K. Schwaber och J. Sutherland.
 
 \end{thebibliography}

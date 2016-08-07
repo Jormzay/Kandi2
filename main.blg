@@ -2,6 +2,7 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: aaltosci_t.bst
 Database file #1: lahteet.bib
 Warning--to sort, need author or key in agile_manifesto
+Warning--to sort, need author or key in scrum_guide
 Warning--to sort, need author or key in less_principles
 Warning--to sort, need author or key in safe_principles
 Warning--to sort, need author or key in dad_principles
@@ -10,4 +11,4 @@ Warning--to sort, need author or key in dad_web
 Warning--to sort, need author or key in less_web
 Warning--to sort, need author or key in safe_web
 Warning--empty year in ask_matrix
-(There were 9 warnings)
+(There were 10 warnings)
