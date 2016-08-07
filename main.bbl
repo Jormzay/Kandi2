@@ -1,4 +1,4 @@
-\begin{thebibliography}{9}
+\begin{thebibliography}{10}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -29,6 +29,13 @@ Disciplined agile delivery principles and manifesto (www), 2014.
 Dicsiplined agile delivery (www), 2016.
 \newblock URL \url{http://www.disciplinedagiledelivery.com/}.
 \newblock DaD webbisa. Refererat 30.6.2016.
+
+\bibitem[goo()]{google_stats}
+Google statistics.
+\newblock URL
+  \url{https://www.google.com/trends/explore?q=Disciplined%20Agile%20Delivery,Large%20Scale%20Scrum,Scaled%20Agile%20Framework}.
+\newblock Statistik på specifika sökord i Googles sökmotor de senste 5
+  åren. Sökning gjord 1.8.2016.
 
 \bibitem[les(2014{\natexlab{a}})]{less_principles}
 Large scale scrum principles overview (www), 2014{\natexlab{a}}.

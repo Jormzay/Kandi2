@@ -10,5 +10,7 @@ Warning--to sort, need author or key in ask_matrix
 Warning--to sort, need author or key in dad_web
 Warning--to sort, need author or key in less_web
 Warning--to sort, need author or key in safe_web
+Warning--to sort, need author or key in google_stats
 Warning--empty year in ask_matrix
-(There were 10 warnings)
+Warning--empty year in google_stats
+(There were 12 warnings)

@@ -6,19 +6,20 @@
 \contentsline {section}{\numberline {2}Bakgund}{5}{section.2}
 \contentsline {subsection}{\numberline {2.1}Agil utveckling}{5}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Scrum i korthet}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Skalning av agil utveckling}{5}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Skalning av agil utveckling}{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Large-Scale Scrum}{6}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Scaled Agile Framework}{6}{subsection.2.5}
-\contentsline {subsection}{\numberline {2.6}Disciplined Agile}{6}{subsection.2.6}
-\contentsline {section}{\numberline {3}Syfte, avgr\IeC {\"a}nsningar, material och metoder}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}Syfte}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Avgr\IeC {\"a}nsning}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Material och metoder}{7}{subsection.3.3}
-\contentsline {section}{\numberline {4}Resultat}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Anv\IeC {\"a}ndningsomr\IeC {\r a}den}{9}{subsection.4.2}
-\contentsline {subsubsection}{\numberline {4.2.1}SAFe}{10}{subsubsection.4.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2}LeSS}{10}{subsubsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.3}DAD}{10}{subsubsection.4.2.3}
-\contentsline {subsection}{\numberline {4.3}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{10}{subsection.4.3}
-\contentsline {section}{Referenser}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {2.6}Disciplined Agile}{7}{subsection.2.6}
+\contentsline {section}{\numberline {3}Syfte, avgr\IeC {\"a}nsningar, material och metoder}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}Syfte}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Avgr\IeC {\"a}nsning}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Material och metoder}{8}{subsection.3.3}
+\contentsline {section}{\numberline {4}Resultat}{10}{section.4}
+\contentsline {subsection}{\numberline {4.1}Gemensamma egenskaper hos ramverken}{10}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Anv\IeC {\"a}ndningsomr\IeC {\r a}den}{10}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}SAFe}{11}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}LeSS}{11}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}DAD}{11}{subsubsection.4.2.3}
+\contentsline {subsection}{\numberline {4.3}Adoption}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}N\IeC {\"a}mnv\IeC {\"a}rda skillnader}{11}{subsection.4.4}
+\contentsline {section}{Referenser}{12}{subsection.4.4}
