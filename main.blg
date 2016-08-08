@@ -1,6 +1,11 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: aaltosci_t.bst
 Database file #1: lahteet.bib
+I was expecting a `,' or a `}'---line 72 of file lahteet.bib
+ :  
+ :  note =  {En årlig rapport agil utvekling gjord av Version One. Hämtad 30.7.2016}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--to sort, need author or key in agile_manifesto
 Warning--to sort, need author or key in scrum_guide
 Warning--to sort, need author or key in less_principles
@@ -13,4 +18,4 @@ Warning--to sort, need author or key in safe_web
 Warning--to sort, need author or key in google_stats
 Warning--empty year in ask_matrix
 Warning--empty year in google_stats
-(There were 12 warnings)
+(There was 1 error message)
