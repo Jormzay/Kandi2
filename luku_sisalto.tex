@@ -46,7 +46,7 @@
 		\textbf{Scrum-mästare} \\
 		Övervakar och ser till att Scrum-principer följs i hela processen. \\
 		
-		Inför varje sprint hålls en sprint-planering.
+		Inför varje sprint hålls en sprint-planering, under vilken de delar ur orderstocken som ska utvecklas under sprinten väljs.
 		%todo Skriv om scrum i korthet, men med tyngpunkt på begrepp inom agile.
 			
 		\cite{scrum_guide}
@@ -56,15 +56,20 @@
 	%Vad är skalning, hur får mad det att fungera.
 		
 		Agile utveckling har traditionellt applicerats på låg nivå med små grupper och projekt. Det finns en efterfrågan på agila metoder också när det kommer till större projekt som involverar ett flertal grupper. Som sådan kan inte en agil metod, såsom Scrum, användas eftersom principerna däri bygger på en mindre grupp och kommunikation mellan ett fåtal personer.
-	
+		
+		Alla projekt kan inte enkelt brytas ner och fördelas på grupper som faller inom ramen för traditionell agil utveckling, så ett konkret behov för nyare metoder uppstår.
+		
+		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Agil utveckling i stor skala följer således samma grundprinciper som traditionell agil utveckling.
+
 	\subsection{Large-Scale Scrum}
-	
-		-Skillnad mellan vanlig Scrum och LeSS
-		-Hur skalas Product owner, scrum teams etc.
+
+		-Skillnad mellan vanlig Scrum och LeSS \\
+		-Hur skalas Product owner, scrum teams etc. \\
+		-Anknyt till scrum-terminologi
 		%todo Skriv mera om hur LeSS fungerar, knyt till scrum terminologi -> http://less.works/less/framework/index.html
 
 		Några grundläggande LeSS principer är: \cite{less_principles}
-		
+
 		\begin{itemize}
 			\setlength{\itemsep}{1pt}
 			\item LeSS är Scrum - använd Scrum-principer oförändrat i ett större sammanhang			
@@ -81,7 +86,7 @@
 		
 	\subsection{Scaled Agile Framework}
 	
-		
+		%todo SAFe pls, make it happen
 		
 		
 		Några grundläggande SAFe principer är: \cite{safe_principles}
@@ -100,6 +105,14 @@
 		%todo DAD pls -> http://www.disciplinedagiledelivery.com/introduction-to-dad/
 	
 		Några grundläggande DAD principer: \cite{dad_principles}
+		\begin{itemize}
+			\item Tyngdpunkt på tidiga och kontinuerliga leveranser av lösningar
+			\item Utnyttja föränderliga krav till att utöka kundens konkurrenskraft
+			\item Leverera fungerande del-lösningar med korta tidsintervall
+			\item Dagligt samarbete mellan produktens intressenter och utvecklare
+			\item Kommunikation som sker ansikte mot ansikte är den mest effektiva till och inom en arbetsgrupp
+			\item Fungerande och användningsbara lösningar är den primära måttstocken för framsteg
+		\end{itemize}
 		
 	\newpage
 
@@ -119,22 +132,18 @@
 	
 		Ramverken som jämförs i detta arbete är begränsade till Large Scale Scrum (LeSS), Scaled Agile Framework (SAFe) samt Disciplined Agile Delivery (DAD).
 		
-		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte uppnått samma användninsnivå som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet i och med att det till skillnad från ett flertal andra ramverk styrks av omfattande dokumentation som till sin kvalitét är fullt jämförbar med den tillgänglig för Less och SAFe. \cite{ask_matrix}
+		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte uppnått samma användninsnivå som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet i och med att det till skillnad från ett flertal andra ramverk styrks av omfattande dokumentation som till sin kvalitét är fullt jämförbar med den tillgänglig för Less och SAFe.
+		\cite{ask_matrix}
 		
-	
+		Många metoder för skalning av agil utveckling ligger i gränsområdet mellan att kunna kallas enskilt ramverk eller ej. Den mest populära enligt Agile Scaling Knowledge (ASK) och Version One är Scrum of Scrums \cite{ask_matrix} \cite{version_one_report}. . Begränsad dokumentation samt skillnader i implementation och tolkning gör en analys av metoder såsom Scrum of Scrums ifrågasättbar. Liknande problematik finns med andra populära metoder såsom Spotifys egna modell, även kallad ''Spotify Model``.
+		
 	\subsection{Material och metoder}
 	%TODO: Beskriv arbtessättet, speciellt för informationssökningens del
-		I arbetet andänds huvudsakligen två olika sorters material.
 		
-		Jämförelsen av ramverkens tekniska speficikationer och principer sker på basis av tillgänglig dokumentation. Böcker och tekniska speficikationer används.
-		\linebreak
-		
-		Ramverkens styrkor, svagheter och användingsmöjligheter jämförs primärt på basis av fallstudier gjorde av företag som använt sig av ramverken i praktiken.
-		
-		%todo Fräsig matris/statistik på fallstudier per ramverk( och kvalitén på dessa?)
-		
-		
+		Huvudsakligt material för arbetet är fallstudier. Inte innehållet eller utfallen av fallstudierna utan metadatan som går att få ur de studier som finns tillgängliga, såsom företagets branch.
+				
 		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av ifrågasättbara metoder.
+		Dett har liten betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
 		
 		
 		Tabell över tillgängligt material för de olika ramverken:
@@ -150,6 +159,8 @@
 		
 		Källa: Ramverkens respektive hemsidor\cite{dad_web, less_web, safe_web}, samt sökningar i vetenskapliga databaser(via bl.a. Google Scholar) med ramverken som sökord.
 		
+		Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användingsområden förblir analysen till viss mån ytlig för ramverket i fråga.
+		Brist på data och fallstudier beror främst på ramverkets nya ålder och på begränsad adoption bland större företag.
 	
 	%Hemsidor:
 	%http://www.disciplinedagiledelivery.com/
@@ -164,7 +175,7 @@
 	
 	\subsection{Jämförelse}
 		Ur ASK-matrisen:
-		-Kostnader
+		-Kostnader \\
 		-Tillgänglig ceritification och skolning
 		
 		
@@ -172,38 +183,83 @@
 	\subsection{Användningsområden}
 
 		Fallstudier sammanfattar hur implementationen av ramverket i företaget gått och framförallt vilket resultat man uppnått. Det framgår sällan vilken sorts förhandsarbete som gjorts, och vilka kriterier man satt ut innan man valde att använda sig av ett enskilt ramverk.
-		För att således kunna dra någon form av slutsats gällande vilka orsaker företag har för att välja ramverk har företagen indelats enligt branch.
-		Ramverk som favoriserats av en specifik branch kan antas vara väl mer lämpat för ett dylikt företag än de andra ramverken.
 		
-		
-		\begin{center}
-			\includegraphics{Grafer/LeSS_brancher.png}
-		\end{center}
-	
-		LeSS har en tyngdunkt på finans och telekombranchen.
+		\subsubsection{Brancher - Data}
 			
-		\begin{center}
-			\includegraphics{Grafer/SAFe_brancher.png}
-		\end{center}
+			För att kunna dra någon form av slutsats gällande vilka orsaker företag har för att välja ramverk har företagen indelats enligt branch.
+					
+			Ramverk som favoriserats av en specifik branch kan antas vara väl mer lämpat för ett dylikt företag än de andra ramverken. DAD har inte tagits i beaktande på grund av bristfällig information och total saknad av fallstudier.
+			
+			Observera att det inte är ändamålsenligt att jämföra statistiken sinsemellan som sådan, eftersom totala antalet fallstudier är olika. Endast de interna förhållandena mellan brancher inom ett och samma ramverk är intressanta.
 				
+			Nämnvärt är även att den relativt låga mängden fallstudier gör alla sorters slutsatser dragna på basis av statistiken är ifrågasättbara.
+			
+			\title{Large Scale Scrum brancher}
+			\begin{center}
+				\includegraphics{Grafer/LeSS_brancher.png}
+			\end{center}
 		
-		Finansbranchen är återkommande för de båda stora ramverken. Inom finans är det höga krav på säkerhet och kvalitét när det kommer till system. Dessutom finns det sällan ekonomiska hinder för projekt av tillräcklig storlek för att behöva tillämpa ett ramverk för uppskalning. 
+			LeSS har en tyngdunkt som ligger på finans och telekombranchen. Annars är det mjukvaruföretag och tillverkningsföretag som står ur mängden.\\		
+				
+				
+			\title{Scaled Agile Framework brancher}
+			\begin{center}
+				\includegraphics{Grafer/SAFe_brancher.png}
+			\end{center}
+					
+			SAFe har lika som LeSS finansbranchen i toppen, men skiljer sig i och med att både tillverkningsföretag och mjukvaruföretag stiger över telekom.
+			
+		\subsubsection{Brancher - Slutsatser}
 		
-		
+			Finansbranchen är återkommande för de båda stora ramverken. Inom finans finns det ovanligt höga krav på säkerhet och kvalitét när det kommer till datasystem. Dels på grund av den känsliga datan men främst för att de är en vanlig målgrupp för cyber-kriminalitet. Inom finans finns det heller sällan ekonomiska hinder för projekt av tillräcklig storlek för att behöva tillämpa ett ramverk för uppskalning. 
+			
+			Institutioner för finans, såsom banker, kan således konstateras vara bland de första som haft både behov och resurser att implementera ramverken.
+			
+			
+			-Telekom vs Tillverkning, förklara skillnaden \\
+			-Tillverkning mer strukturerat (tänk löpande band) \\
+			-Telekom mer utspritt, dynamiskt. Många olika system som ska fungera. \\
+						
 		%todo diskutera varför skillnaderna uppstår, dvs telekom vs. tillverkning -> färdig struktur (löpande band etc) vs kaos
 	
 
 	\subsection{Popularitet och adoption}
 	
+		Mängden tillgänglit material ger en riktgivande uppfattning om i vilken utsträckning ramverken används. Mer entydig data finns dock för att stöda uppfattningen och för att ge en tydligare bild.
+		
+		Enligt en rapport baserad på en enkät gjort av Version one är SAFe betydligt mer utbrett jämfört med LeSS och DAD. \cite{version_one_report} \\	
+		
+		Observera att man i själva enkäten kunde kryssa flera alternativ, därav en totalprocent på mer än hundra:
+		
 		\begin{center}
 			\includegraphics{Grafer/AnnualReport_Adoption.png}
 		\end{center}
+		\cite{version_one_report}
 	
+		Den egenskap som korrelar starkast med ett ramverks eller metods popularitet i ovanstående rapport är kostnad. De mest populära ramverken och metoderna i Version One rapporten har även en implementationskostnad listad som 'låg' i Agile Scaling Knowlegde -matrisen. \cite{ask_matrix}				
+		Såsom det påpekas i kapitlet om Material och Metoder är många av de populära metoderna inte klassifierbara som ramverk. 
 		
+		
+		Resultatet från enkäten öppnar inte direkt huruvida ramverken är populära jämfört med varandra, förutom att SAfE är i en klass för sig. Sökmotorn Google ger statistik på popularitet av olika över tiden. I egenskap av världens mest populära sökmotor ger denna statistik en god uppfattning om huruvida ett ramverk är allmänt känt och använt eller ej. 
+		
+		Då alla tre ramverks sökningar sätts emot varandra kan det igen konstateras att det SAFe är klart mer eftersökt. Ur samma data syns DAD och LeSS som lika eftersökta.
+		
+		Y-axeln är ett automatiskt genererat jämförelsetal direkt korrelerande med antal sökningar per tidsenhet.
 		\begin{center}
 			\includegraphics{Grafer/Google_sokningar.png}
 		\end{center}
-	\cite{google_stats}
+		\cite{google_stats}
 	
+	
+		Genom att utesluta SAFe får man ett noggrannare resultat för LeSS och DAD, vilket är mer ändamålsenligt. DAD genomgår en positivare trend, och är i allmänhet mera eftersökt än LeSS. Detta är motstridigt mot det resultat som rapporterades i Version One rapporten. Detta kan tyda på ett mer utvidgat intresse för DAD i framtiden, då trenden för dess popularitet är klart positiv jämfört med LeSS.
+	
+		Y-axeln är igen ett jämförelsetal som endast är menat för intern jämförelse inom denna graf.
+		\begin{center}
+			\includegraphics{Grafer/Google_sokningar_dad_less.png}
+		\end{center}
+		\cite{google_stats_dad_less}
 		
-	\subsection{Nämnvärda skillnader}
+		
+	\subsection{Nämnvärda skillnader (eller sammanfattning?)}
+
+	

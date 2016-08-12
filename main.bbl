@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{12}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -30,12 +30,17 @@ Dicsiplined agile delivery (www), 2016.
 \newblock URL \url{http://www.disciplinedagiledelivery.com/}.
 \newblock DaD webbisa. Refererat 30.6.2016.
 
-\bibitem[goo()]{google_stats}
-Google statistics.
+\bibitem[goo({\natexlab{a}})]{google_stats}
+Google statistics, {\natexlab{a}}.
 \newblock URL
   \url{https://www.google.com/trends/explore?q=Disciplined%20Agile%20Delivery,Large%20Scale%20Scrum,Scaled%20Agile%20Framework}.
 \newblock Statistik på specifika sökord i Googles sökmotor de senste 5
   åren. Sökning gjord 1.8.2016.
+
+\bibitem[goo({\natexlab{b}})]{google_stats_dad_less}
+Google staistics, {\natexlab{b}}.
+\newblock URL
+  \url{https://www.google.com/trends/explore?q=Disciplined%20Agile%20Delivery,Large%20Scale%20Scrum}.
 
 \bibitem[les(2014{\natexlab{a}})]{less_principles}
 Large scale scrum principles overview (www), 2014{\natexlab{a}}.
@@ -63,5 +68,10 @@ Scrum guide, 2016.
 \newblock URL
   \url{http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf}.
 \newblock Scrum guide skriven och publicerad av K. Schwaber och J. Sutherland.
+
+\bibitem[ver()]{version_one_report}
+Version one 10th annual report.
+\newblock URL
+  \url{https://versionone.com/pdf/VersionOne-10th-Annual-State-of-Agile-Report.pdf}.
 
 \end{thebibliography}
