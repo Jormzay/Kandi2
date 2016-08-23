@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  17 AUG 2016 22:51
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  23 AUG 2016 15:03
 entering extended mode
 **main.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.tex
@@ -497,115 +497,120 @@ Overfull \hbox (2.60674pt too wide) in paragraph at lines 14--18
 
 ]
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\luku_sisalto.tex
-Overfull \hbox (8.8859pt too wide) in paragraph at lines 7--8
+Overfull \hbox (8.8859pt too wide) in paragraph at lines 10--11
 []\T1/cmr/m/n/12 Agil pro-gram-ut-veck-ling är i sig ett ite-ra-tivt och in-kre
 -men-tellt sätt att ut-veck-la pro-gram-va-ra. 
  []
 
 [4]
-Overfull \hbox (0.83438pt too wide) in paragraph at lines 25--30
+Overfull \hbox (0.83438pt too wide) in paragraph at lines 21--26
 \T1/cmr/m/n/12 Agil ut-veck-ling är en me-tod, el-ler en sam-ling prin-ci-per, 
 för pro-gram-ut-veck-ling. Prin-ci-per-na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
 [6]
-Overfull \hbox (8.62854pt too wide) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Overfull \hbox (8.62854pt too wide) in paragraph at lines 93--94
 \T1/cmr/m/n/12 Huvudsakligt ma-te-ri-al för ar-be-tet är fall-stu-di-er. In-te 
 in-ne-hål-let el-ler ut-fal-len av fall-stu-di-er-na
  []
 
 [7]
-Overfull \hbox (18.51505pt too wide) in paragraph at lines 108--109
+Overfull \hbox (18.51505pt too wide) in paragraph at lines 110--111
 []\T1/cmr/m/n/12 Källa: Ram-ver-kens re-spek-ti-ve hemsidor[[]; []; []], samt s
 ök-ning-ar i ve-ten-skap-li-ga da-ta-ba-ser(via
  []
 
 [8]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 139.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 141.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 139.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
  [9]
-<Grafer/LeSS_brancher.png, id=167, 329.73187pt x 201.75375pt>
+<Grafer/LeSS_brancher.png, id=171, 329.73187pt x 201.75375pt>
 File: Grafer/LeSS_brancher.png Graphic file (type png)
 
 <use Grafer/LeSS_brancher.png>
-Package pdftex.def Info: Grafer/LeSS_brancher.png used on input line 198.
+Package pdftex.def Info: Grafer/LeSS_brancher.png used on input line 200.
 (pdftex.def)             Requested size: 329.73105pt x 201.75325pt.
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
 
  []
 
-<Grafer/SAFe_brancher.png, id=173, 328.22626pt x 195.73125pt>
+<Grafer/SAFe_brancher.png, id=177, 328.22626pt x 195.73125pt>
 File: Grafer/SAFe_brancher.png Graphic file (type png)
 
 <use Grafer/SAFe_brancher.png>
-Package pdftex.def Info: Grafer/SAFe_brancher.png used on input line 206.
+Package pdftex.def Info: Grafer/SAFe_brancher.png used on input line 208.
 (pdftex.def)             Requested size: 328.22545pt x 195.73076pt.
  [11 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/LeSS_brancher.png
 > <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/SAFe_brancher.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 218--221
+Underfull \hbox (badness 10000) in paragraph at lines 220--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-<Grafer/AnnualReport_Adoption.png, id=179, 412.03937pt x 225.34187pt>
+<Grafer/AnnualReport_Adoption.png, id=183, 412.03937pt x 224.33812pt>
 File: Grafer/AnnualReport_Adoption.png Graphic file (type png)
 
 <use Grafer/AnnualReport_Adoption.png>
 Package pdftex.def Info: Grafer/AnnualReport_Adoption.png used on input line 23
-4.
-(pdftex.def)             Requested size: 412.03836pt x 225.34131pt.
+6.
+(pdftex.def)             Requested size: 412.03836pt x 224.33757pt.
  [12 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/AnnualReport_Adop
 tion.png>]
-<Grafer/Google_sokningar.png, id=186, 458.21187pt x 271.0125pt>
+<Grafer/Google_sokningar.png, id=190, 458.21187pt x 271.0125pt>
 File: Grafer/Google_sokningar.png Graphic file (type png)
 
 <use Grafer/Google_sokningar.png>
-Package pdftex.def Info: Grafer/Google_sokningar.png used on input line 248.
+Package pdftex.def Info: Grafer/Google_sokningar.png used on input line 250.
 (pdftex.def)             Requested size: 458.21075pt x 271.01183pt.
 
-Overfull \hbox (5.24289pt too wide) in paragraph at lines 248--249
+Overfull \hbox (5.24289pt too wide) in paragraph at lines 250--251
  [] 
  []
 
-<Grafer/Google_sokningar_dad_less.png, id=188, 456.20438pt x 169.63374pt>
+<Grafer/Google_sokningar_dad_less.png, id=192, 456.20438pt x 169.63374pt>
 File: Grafer/Google_sokningar_dad_less.png Graphic file (type png)
 
 <use Grafer/Google_sokningar_dad_less.png>
 Package pdftex.def Info: Grafer/Google_sokningar_dad_less.png used on input lin
-e 257.
+e 259.
 (pdftex.def)             Requested size: 456.20325pt x 169.63332pt.
 
-Overfull \hbox (3.23538pt too wide) in paragraph at lines 257--258
+Overfull \hbox (3.23538pt too wide) in paragraph at lines 259--260
  [] 
  []
 
@@ -681,12 +686,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 4527C461E9325F4EB21667E7D9617FF5;1338.
+(rerunfilecheck)             Checksum: 55B5F7D0E8AA58467785FA58D4F30935;1320.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 9616 strings out of 493921
- 134600 string characters out of 3147273
+ 9619 strings out of 493921
+ 134618 string characters out of 3147273
  227988 words of memory out of 3000000
  12686 multiletter control sequences out of 15000+200000
  14776 words of font info for 41 fonts, out of 3000000 for 9000
@@ -700,9 +705,9 @@ eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Jonathan\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\J
 onathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 ><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (15 pages, 259200 bytes).
+Output written on main.pdf (15 pages, 258582 bytes).
 PDF statistics:
- 544 PDF objects out of 1000 (max. 8388607)
- 49 named destinations out of 1000 (max. 500000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 52 named destinations out of 1000 (max. 500000)
  186 words of extra memory for PDF output out of 10000 (max. 10000000)
 
