@@ -1,13 +1,20 @@
+% !TeX spellcheck = sv_SE
 \section{Inledning}
 	
-	%Vadå ramverk för agil uppskalning, vad är intressant?
 	Detta arbete jämför olika ramverk för uppskalning av agil programutveckling. Dessa beskriver hur man kan utnyttja traditionella agila metoder även i större organisationer och projekt. 
 	
-	Agila metoder, såsom Scrum, är riktade till grupper på mindre än 10 personer\cite{scrum_guide}	
+	Agila metoder, såsom Scrum, är riktade till grupper på mindre än 10 personer\cite{scrum_guide}, dock finns det projekt för grupper större än det som traditionellt lämpat sig för agil utveckling.
+	Behov för metoder att skala upp agil utveckling finns.
 	
+	I rapporten gjord av Version One \cite{version_one_report} listas det upp ett flertal metoder för uppskalning av agil utveckling. Akademisk forskning om de olika metoderna existerar i stort sett inte alls, vilket gör det utmanande för företag att göra beslut om vilken metod som lämpar sig för deras behov. Även mångfalden av metoder, med mer eller mindre omfattande dokumentation, utgör ett hinder för företag att göra ett beslut om vilken metod de vill implementera. 	
+	I detta arbete ämnar man lyfta fram tre metoder för uppskalning av agil utveckling samt analysera och jämföra dom.
+	De metoder som beskrivs och jämförs är stödda av tillräcklig egen dokumentation för att klassas som egenstående ramverk, så att arbetet ska kunna tänkas användas som stöd för företag som försöker välja vilket ramverk som passar deras behov.	
 	
-	%agila metoder
-	Agil programutveckling är i sig ett iterativt och inkrementellt sätt att utveckla programvara.
+	Valet av de jämförda ramverken beskrivs noggrannare i stycke 3.
+	Syftet är att klargöra ifall det finns klara skilda användningsändamål för ramverken i fråga, samt vilka de största skillnaderna i implementationen är. Som grund för jämförelserna används fallstudier om implementation av ramverken i olika företag. För att jämföra ramverkens egenskaper används teknisk dokumentation som finns tillgänglig på ramverkens webbsidor.
+	
+	Introduktionen utgör det första kapitlet i arbetet. Det andra kapitlet tar upp bakgrunden, samt går igenom nödvändiga förhandskunskaper. Efter det följer kapitel om syftet samt material och metodik. Fjärde kapitlet presenterar resultaten av materialet. Som sista kapitel sammanfattas arbetet med diskussion om resultaten samt eventuell fortsatt forskning.
+	
 	
 	%meta
 	%todo skriv Metatexten EFTER att du har fucking skrivit arbetet
@@ -19,7 +26,7 @@
 	\subsection{Agil utveckling}
 	
 		Agil utveckling är en metod, eller en samling principer, för programutveckling. Principerna bygger på att bryta ner en stor helhet i små mindre självständiga delar, som man sedan utvecklar i skilda etapper, ofta kallade Sprinter.
-		Mellan varje sprint finns möjlighet för kunden och utvecklarna att komma med förändringsförslag och kommentera förra sprintens resultat. Varje sprint ska producera en fungerande helhet som läggs till huvudprodukten. Centrala begrepp och principer inom agil programutveckling är transparens, flexibilitet samt inkrementell och iterativ utveckling. Man värdesätter flexibilitet och kommunkation med kunden över en noggrannt specifierad process som sedan följs. \cite{agile_manifesto}
+		Mellan varje sprint finns möjlighet för kunden och utvecklarna att komma med förändringsförslag och kommentera förra sprintens resultat. Varje sprint ska producera en fungerande helhet som läggs till huvudprodukten. Centrala begrepp och principer inom agil programutveckling är transparens, flexibilitet samt inkrementell och iterativ utveckling. Man värdesätter flexibilitet och kommunikation med kunden över en noggrant specificerad process som sedan följs. \cite{agile_manifesto}
 		\\
 		Några ramverk för agil utveckling är Unified Process (UP), Extreme Programming (XP) och Scrum.
 		Scrum hör till de mest kända och allmänt använda ramverket, och som följd har många andra ramverk för både agil utveckling och skalning av detta baserats på Scrum. I detta arbete behandlas till exempel LeSS (Large Scale Scrum), som rakt översatt står för ``Scrum i stor skala''.
@@ -52,10 +59,9 @@
 	%Vad är skalning, hur får mad det att fungera.
 		
 		Agile utveckling har traditionellt applicerats på låg nivå med små grupper och projekt. Det finns en efterfrågan på agila metoder också när det kommer till större projekt som involverar ett flertal grupper. Som sådan kan inte en agil metod, såsom Scrum, användas eftersom principerna däri bygger på en mindre grupp och kommunikation mellan ett fåtal personer.
-		
 		Alla projekt kan inte enkelt brytas ner och fördelas på grupper som faller inom ramen för traditionell agil utveckling, så ett konkret behov för nyare metoder uppstår.
 		
-		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Agil utveckling i stor skala följer således samma grundprinciper som traditionell agil utveckling.
+		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Agil utveckling i stor skala följer således samma grundprinciper som traditionell agil utveckling. Metoder såsom Scrum implementeras ofta inom ett ramverk för agil uppskalning.
 
 		
 	\newpage
@@ -82,18 +88,18 @@
 	
 		Ramverken som jämförs i detta arbete är begränsade till Large Scale Scrum (LeSS), Scaled Agile Framework (SAFe) samt Disciplined Agile Delivery (DAD).
 		
-		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte uppnått samma användninsnivå som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet i och med att det till skillnad från ett flertal andra ramverk styrks av omfattande dokumentation som till sin kvalitét är fullt jämförbar med den tillgänglig för Less och SAFe.
+		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte uppnått samma användningsnivå som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet i och med att det till skillnad från ett flertal andra metoder styrks av omfattande dokumentation som till sin kvalité är fullt jämförbar med den tillgänglig för Less och SAFe.
 		\cite{ask_matrix}
 		
-		Många metoder för skalning av agil utveckling ligger i gränsområdet mellan att kunna kallas enskilt ramverk eller ej. Den mest populära enligt Agile Scaling Knowledge (ASK) och Version One är Scrum of Scrums \cite{ask_matrix} \cite{version_one_report}. . Begränsad dokumentation samt skillnader i implementation och tolkning gör en analys av metoder såsom Scrum of Scrums ifrågasättbar. Liknande problematik finns med andra populära metoder såsom Spotifys egna modell, även kallad ''Spotify Model``.
+		Många metoder för skalning av agil utveckling ligger i gränsområdet mellan att kunna kallas enskilt ramverk eller ej. Den mest populära enligt Agile Scaling Knowledge (ASK) och Version One är Scrum of Scrums \cite{ask_matrix} \cite{version_one_report}. Scrum of Scrums är en enkel förlängning på normal Scrum, där scrum-mästarna för många olika grupper träffas och inom sig har ett eget scrum-möte. Detta är inte tillräckligt för att kunna klassas som egenstående ramverk. Detsamma gäller andra populära metoder såsom Spotifys egna modell, även kallad ''Spotify Model``.
 		
 	\subsection{Material och metoder}
 	%TODO: Beskriv arbtessättet, speciellt för informationssökningens del
 		
-		Huvudsakligt material för arbetet är fallstudier. Inte innehållet eller utfallen av fallstudierna utan metadatan som går att få ur de studier som finns tillgängliga, såsom företagets bransch.
+		Huvudsakligt material för arbetet är fallstudier. Inte innehållet eller utfallen av fallstudierna utan meta-datan som går att få ur de studier som finns tillgängliga, såsom företagets bransch.
 				
-		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av ifrågasättbara metoder.
-		Dett har liten betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
+		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av tvivelaktiga metoder.
+		Det har liten betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
 		
 		
 		Tabell över tillgängligt material för de olika ramverken:
@@ -111,8 +117,8 @@
 		
 		Samtliga ramverk har utförliga hemsidor med mycket allmän information om ramverken.
 		
-		Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användingsområden förblir analysen till viss mån ytlig för ramverket i fråga.
-		Brist på data och fallstudier beror främst på ramverkets nya ålder och på begränsad adoption bland större företag.
+		Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användningsområden förblir analysen till viss mån ytlig för ramverket i fråga.
+		Brist på data och fallstudier beror främst på ramverkets begränsade adoption bland större företag.
 	
 	%Hemsidor:
 	%http://www.disciplinedagiledelivery.com/
@@ -126,9 +132,9 @@
 	\subsection{Large-Scale Scrum}
 	
 	
-		Less är, som namnet antyder, i grova drag en förlängning på scrum.
 		
 		
+				
 		-Skillnad mellan vanlig Scrum och LeSS \\
 		-Hur skalas Product owner, scrum teams etc. \\
 		-Anknyt till scrum-terminologi
@@ -177,7 +183,7 @@
 			\item Leverera fungerande del-lösningar med korta tidsintervall
 			\item Dagligt samarbete mellan produktens intressenter och utvecklare
 			\item Kommunikation som sker ansikte mot ansikte är den mest effektiva till och inom en arbetsgrupp
-			\item Fungerande och användningsbara lösningar är den primära måttstocken för framsteg
+			\item Fungerande och användbara lösningar är den primära måttstocken för framsteg
 		\end{itemize}
 			
 	
@@ -193,14 +199,14 @@
 			
 			Observera att det inte är ändamålsenligt att jämföra statistiken sinsemellan som sådan, eftersom totala antalet fallstudier är olika. Endast de interna förhållandena mellan branscher inom ett och samma ramverk är intressanta.
 				
-			Nämnvärt är även att den relativt låga mängden fallstudier gör alla sorters slutsatser dragna på basis av statistiken är ifrågasättbara.
+			Nämnvärt är även att den relativt låga mängden fallstudier gör alla sorters slutsatser dragna på basis av statistiken är svaga.
 			
 			\title{Large Scale Scrum branscher}
 			\begin{center}
 				\includegraphics{Grafer/LeSS_brancher.png}
 			\end{center}
 		
-			LeSS har en tyngdunkt som ligger på finans och telekombranschen. Annars är det mjukvaruföretag och tillverkningsföretag som står ur mängden.\\		
+			LeSS har en tyngdpunkt som ligger på finans och telekombranschen. Annars är det mjukvaruföretag och tillverkningsföretag som står ur mängden.\\		
 				
 				
 			\title{Scaled Agile Framework branscher}
@@ -212,7 +218,7 @@
 			
 		\subsubsection{Branscher - Slutsatser}
 		
-			Finansbranschen är återkommande för de båda stora ramverken. Inom finans finns det ovanligt höga krav på säkerhet och kvalitét när det kommer till datasystem. Dels på grund av den känsliga datan men främst för att de är en vanlig målgrupp för cyber-kriminalitet. Inom finans finns det heller sällan ekonomiska hinder för projekt av tillräcklig storlek för att behöva tillämpa ett ramverk för uppskalning. 
+			Finansbranschen är återkommande för de båda stora ramverken. Inom finans finns det ovanligt höga krav på säkerhet och kvalité när det kommer till datasystem. Dels på grund av den känsliga datan men främst för att de är en vanlig målgrupp för cyber-kriminalitet. Inom finans finns det heller sällan ekonomiska hinder för projekt av tillräcklig storlek för att behöva tillämpa ett ramverk för uppskalning. 
 			
 			Institutioner för finans, såsom banker, kan således konstateras vara bland de första som haft både behov och resurser att implementera ramverken.
 			
@@ -226,7 +232,7 @@
 
 	\subsection{Popularitet och adoption}
 	
-		Mängden tillgänglit material ger en riktgivande uppfattning om i vilken utsträckning ramverken används. Mer entydig data finns dock för att stöda uppfattningen och för att ge en tydligare bild.
+		Mängden tillgängligt material ger en riktgivande uppfattning om i vilken utsträckning ramverken används. Mer entydig data finns dock för att stöda uppfattningen och för att ge en tydligare bild.
 		
 		Enligt en rapport baserad på en enkät gjort av Version one är SAFe betydligt mer utbrett jämfört med LeSS och DAD. \cite{version_one_report} \\	
 		
@@ -237,7 +243,7 @@
 		\end{center}
 		\cite{version_one_report}
 	
-		Den egenskap som korrelar starkast med ett ramverks eller metods popularitet i ovanstående rapport är kostnad. De mest populära ramverken och metoderna i Version One rapporten har även en implementationskostnad listad som 'låg' i Agile Scaling Knowlegde -matrisen. \cite{ask_matrix}				
+		Den egenskap som korrelerar starkast med ett ramverks eller metods popularitet i ovanstående rapport är kostnad. De mest populära ramverken och metoderna i Version One rapporten har även en implementationskostnad listad som 'låg' i Agile Scaling Knowlegde -matrisen. \cite{ask_matrix}				
 		Såsom det påpekas i kapitlet om Material och Metoder är många av de populära metoderna inte klassifierbara som ramverk. 
 		
 		
@@ -264,8 +270,8 @@
 	\subsection{Jämförelse}
 		Ur ASK-matrisen:
 		-Kostnader \\
-		-Tillgänglig ceritification och skolning
-				
+		-Tillgänglig certifikation och skolning
+			
 				
 \section{Diskussion och fortsatt forskning}
 	
