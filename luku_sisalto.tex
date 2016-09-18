@@ -101,24 +101,24 @@
 		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av tvivelaktiga metoder.
 		Det har liten betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
 		
+		%
+		%Tabell över tillgängligt material för de olika ramverken:
+		%
+		%\begin{center}
+		%\begin{tabular}{ >{\bfseries}l | r | r | r }
+		%	 	 						& Böcker & Artiklar & Fallstudier 	\\ \hline
+		%	Disciplined Agile Delivery 	& 1 	& 2			& 2 			\\ \hline
+		%	Large Scale Scrum 			& 3 	& >10		& 21 			\\ \hline
+		%	Scaled Agile Framework 		& 4 	& >10		& 27 			\\ 
+		%\end{tabular}
+		%\end{center}
+		%
+		%Källa: Ramverkens respektive hemsidor\cite{dad_web, less_web, safe_web}, samt sökningar i vetenskapliga %databaser(via bl.a. Google Scholar) med ramverken som sökord.
+		%
+		Samtliga ramverk har utförliga webbsidor med mycket allmän och teknisk information om ramverken. Samtliga fallstudier är hämtade från ramverkens hemsidor.
 		
-		Tabell över tillgängligt material för de olika ramverken:
-
-		\begin{center}
-		\begin{tabular}{ >{\bfseries}l | r | r | r }
-			 	 						& Böcker & Artiklar & Fallstudier 	\\ \hline
-			Disciplined Agile Delivery 	& 1 	& 2			& 2 			\\ \hline
-			Large Scale Scrum 			& 3 	& >10		& 21 			\\ \hline
-			Scaled Agile Framework 		& 4 	& >10		& 27 			\\ 
-		\end{tabular}
-		\end{center}
-		
-		Källa: Ramverkens respektive hemsidor\cite{dad_web, less_web, safe_web}, samt sökningar i vetenskapliga databaser(via bl.a. Google Scholar) med ramverken som sökord.
-		
-		Samtliga ramverk har utförliga hemsidor med mycket allmän information om ramverken.
-		
-		Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användningsområden förblir analysen till viss mån ytlig för ramverket i fråga.
-		Brist på data och fallstudier beror främst på ramverkets begränsade adoption bland större företag.
+		%Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användningsområden förblir analysen till viss mån ytlig för ramverket i fråga.
+		%Brist på data och fallstudier beror främst på ramverkets begränsade adoption bland större företag.
 	
 	%Hemsidor:
 	%http://www.disciplinedagiledelivery.com/
@@ -134,11 +134,12 @@
 	
 		Large-Scale Scrum har som grundläggande egenskap Scrum. Scrum-grupper håller egna interna scrum-möten med scrum-mästare, och upprätthåller egna sprint-backloggar. Ovanpå den traditionella Scrum-metodiken existerar produktöversträckande backloggar och sprint-uppföljning.
 		
+		Ur figur 1 går att se de olika nivåerna av agilt tankesätt, och hur ramverket är byggt specifikt för Scrum. \cite{less_overview}
 		
 		\begin{center}	
 			\includegraphics{Material/less_framework.png}
+		\\ Figur 1: Konceptbild på LeSS. Källa: Ramverkets webbsida. \cite{less_web}
 		\end{center}
-		%todo Skriv mera om hur LeSS fungerar, knyt till scrum terminologi -> http://less.works/less/framework/index.html
 	
 		Några grundläggande LeSS principer är: \cite{less_principles}
 	
@@ -158,10 +159,12 @@
 			
 	\subsection{Scaled Agile Framework}
 		
-		%todo SAFe pls, make it happen
+		Till skillnad från LeSS som föreskriver Scrum tar SAFe inte ställning till vilken agil metods som tillämpas på team-nivå.
+		SAFe har fokus även på större helheter, såsom ledningen i ett företag, dess strategi och ekonomi. Detta framgår ur de två översta kategorierna i figur 2. \cite{safe_intro}
 		
 		\begin{center}
 			\includegraphics[scale=0.2]{Material/SAFeBigPicChart.jpg}
+			\\ Figur 2: Konceptbild på SAFe. Källa: Ramverkets webbsida. \cite{safe_web}
 		\end{center}
 		Några grundläggande SAFe principer är: \cite{safe_principles}
 		\begin{itemize}
@@ -175,10 +178,12 @@
 			
 		
 	\subsection{Disciplined Agile}
-		
-			%todo DAD pls -> http://www.disciplinedagiledelivery.com/introduction-to-dad/
+			
+			DAD kan beskrivas som en kombination av ett flertal andra metoder, ett så kallat hybrid ramverk. DAD utnyttjar välgrundade tillvägagångssätt från bland annat SAFe och Scrum.
+			Ramverket har personer i centrum, och fokuserar på team-nivån. Dett går att se från konceptbilden i figur 3. \cite{dad_overview}
 		\begin{center}
 			\includegraphics[scale=0.4]{Material/DAD_graphic.jpg}
+			\\ Figur 3: DAD Konceptbild. Källa: DAD Webbsida \cite{dad_web}
 		\end{center}
 		Några grundläggande DAD principer: \cite{dad_principles}
 		\begin{itemize}
@@ -208,6 +213,7 @@
 			\title{Large Scale Scrum branscher}
 			\begin{center}
 				\includegraphics{Grafer/LeSS_brancher.png}
+				\\ Figur 4: Brancher för fallstudier gjorda om LeSS. Källa: katalog över LeSS fallstudier \cite{less_casestudies} 
 			\end{center}
 		
 			LeSS har en tyngdpunkt som ligger på finans och telekombranschen. Annars är det mjukvaruföretag och tillverkningsföretag som står ur mängden.\\		
@@ -216,6 +222,7 @@
 			\title{Scaled Agile Framework branscher}
 			\begin{center}
 				\includegraphics{Grafer/SAFe_brancher.png}
+				\\ Figur 5: Brancher för fallstudier gjorde om SAFe. Källa: katalog över SAFe fallstudier \cite{safe_casestudies}
 			\end{center}
 					
 			SAFe har lika som LeSS finansbranschen i toppen, men skiljer sig i och med att både tillverkningsföretag och mjukvaruföretag stiger över telekom.
@@ -227,11 +234,8 @@
 			Institutioner för finans, såsom banker, kan således konstateras vara bland de första som haft både behov och resurser att implementera ramverken.
 			
 			
-			-Telekom vs Tillverkning, förklara skillnaden \\
-			-Tillverkning mer strukturerat (tänk löpande band) \\
-			-Telekom mer utspritt, dynamiskt. Många olika system som ska fungera. \\
-						
-		%todo diskutera varför skillnaderna uppstår, dvs telekom vs. tillverkning -> färdig struktur (löpande band etc) vs kaos
+			Skillnad i popularitet mellan telekom- och tillverkningsbranschen kan tänkas bero på skilda behov i respektive bransch. Telekom arbetar med en mångfald olika system, medan tillverkning ofta har utmaningar relaterade till logistik och tydliga processer, såsom löpande band.
+			
 	
 
 	\subsection{Popularitet och adoption}
@@ -244,22 +248,23 @@
 		
 		\begin{center}
 			\includegraphics{Grafer/AnnualReport_Adoption.png}
+			\\Figur 6: Statistik för adoptionen av metoder för uppskalning av agil utveckling. Källa: Version one rapport. \cite{version_one_report}
 		\end{center}
-		\cite{version_one_report}
+		
 	
 		Den egenskap som korrelerar starkast med ett ramverks eller metods popularitet i ovanstående rapport är kostnad. De mest populära ramverken och metoderna i Version One rapporten har även en implementationskostnad listad som 'låg' i Agile Scaling Knowlegde -matrisen. \cite{ask_matrix}				
-		Såsom det påpekas i kapitlet om Material och Metoder är många av de populära metoderna inte klassifierbara som ramverk. 
+		Såsom det påpekas i kapitlet om Material och Metoder går många av de populära metoderna inte att klassificera som ramverk. 
 		
 		
 		Resultatet från enkäten öppnar inte direkt huruvida ramverken är populära jämfört med varandra, förutom att SAfE är i en klass för sig. Sökmotorn Google ger statistik på popularitet av olika över tiden. I egenskap av världens mest populära sökmotor ger denna statistik en god uppfattning om huruvida ett ramverk är allmänt känt och använt eller ej. 
 		
 		Då alla tre ramverks sökningar sätts emot varandra kan det igen konstateras att det SAFe är klart mer eftersökt. Ur samma data syns DAD och LeSS som lika eftersökta.
 		
-		Y-axeln är ett automatiskt genererat jämförelsetal direkt korrelerande med antal sökningar per tidsenhet.
+		Y-axeln är ett automatiskt genererat jämförelsetal direkt korrelerande med antal sökningar per tidsenhet. Resultaten ger således endast interna förhållanden, och är inte absoluta.
 		\begin{center}
 			\includegraphics{Grafer/Google_sokningar.png}
+			\\ Figur 7: Graf över google sökningar. Källa: Google Stats \cite{google_stats}
 		\end{center}
-		\cite{google_stats}
 	
 	
 		Genom att utesluta SAFe får man ett noggrannare resultat för LeSS och DAD, vilket är mer ändamålsenligt. DAD genomgår en positivare trend, och är i allmänhet mera eftersökt än LeSS. Detta är motstridigt mot det resultat som rapporterades i Version One rapporten. Detta kan tyda på ett mer utvidgat intresse för DAD i framtiden, då trenden för dess popularitet är klart positiv jämfört med LeSS.
@@ -267,15 +272,31 @@
 		Y-axeln är igen ett jämförelsetal som endast är menat för intern jämförelse inom denna graf.
 		\begin{center}
 			\includegraphics{Grafer/Google_sokningar_dad_less.png}
+			\\ Figur 8: Graf över google sökningar. Källa: Google Stats \cite{google_stats_dad_less}
 		\end{center}
-		\cite{google_stats_dad_less}
 		
 		
-	\subsection{Jämförelse}
-		Ur ASK-matrisen:
-		-Kostnader \\
-		-Tillgänglig certifikation och skolning
+		
 			
 				
 \section{Diskussion och fortsatt forskning}
+
+	Att göra en betydelsefull jämförelse av så omfattande ramverk som detta arbete presenterar är utmanande. Tillgänglig information finns främst i form av hela böcker samt webbsidor, och bygger på mycket bakgrundskunskap. En relevant analys vore bäst baserad på praktisk erfarenhet av ramverken.
+	I detta arbete kunde ingen djup analys göras, på grund av arbetes storlek och avsaknaden av forskning i området.
+	
+	
+	Dock kan man på ytan se skillnader i bland annat popularitet och användningsområden. SAFe ligger starkt först i popularitet, både ur företagens och agil-konsulters synvinkel.
+	Konsulterna verkar visa mer intresse för DAD, trots att LeSS används mera bland företag. Detta tyder på att DAD möjligtvis kommer åt att användas mer brett i framtiden.
+	
+	
+	Märkbart är även att ramverken i stort sett har samma principer enligt vilka de fungera, dock med skilda prioriteter och praktiska arrangemang.
+	
+	
+	Finns mycket kvar att göra i fråga om forskning i ramverk för agil utveckling. Främst kunde analyser och konkreta sammanfattningar av de enskilda ramverken göras, som sedan kunde möjliggöra mer djupgående och betydelsefull jämförelse. Dock kan konstateras att med endast ramverkens rådata till hands och inga studier, är en jämförelse ett arbetsamt och utmanande projekt.
+	
+
+
+
+
+
 	

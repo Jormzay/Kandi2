@@ -1,4 +1,4 @@
-\begin{thebibliography}{12}
+\begin{thebibliography}{17}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -19,8 +19,14 @@ Agile scaling knowledge matrix.
 \newblock En matris sammanställd av agilescaling.org som innehåller basfakta
   om aktuella ramverk för uppskalning av agila metoder.
 
-\bibitem[dad(2014)]{dad_principles}
-Disciplined agile delivery principles and manifesto (www), 2014.
+\bibitem[dad(2014{\natexlab{a}})]{dad_overview}
+Disciplined agile delivery overview (www), 2014{\natexlab{a}}.
+\newblock URL
+  \url{http://www.disciplinedagiledelivery.com/introduction-to-dad/}.
+\newblock DAD Översikt. Refererat 11.8.2016.
+
+\bibitem[dad(2014{\natexlab{b}})]{dad_principles}
+Disciplined agile delivery principles and manifesto (www), 2014{\natexlab{b}}.
 \newblock URL
   \url{http://www.disciplinedagiledelivery.com/disciplinedagilemanifesto/}.
 \newblock DAD Principer och manifest. Refererat 8.7.2016.
@@ -30,17 +36,29 @@ Dicsiplined agile delivery (www), 2016.
 \newblock URL \url{http://www.disciplinedagiledelivery.com/}.
 \newblock DaD webbisa. Refererat 30.6.2016.
 
-\bibitem[goo({\natexlab{a}})]{google_stats}
-Google statistics, {\natexlab{a}}.
+\bibitem[goo(2016{\natexlab{a}})]{google_stats}
+Google statistics, 2016{\natexlab{a}}.
 \newblock URL
   \url{https://www.google.com/trends/explore?q=Disciplined%20Agile%20Delivery,Large%20Scale%20Scrum,Scaled%20Agile%20Framework}.
 \newblock Statistik på specifika sökord i Googles sökmotor de senste 5
   åren. Sökning gjord 1.8.2016.
 
-\bibitem[goo({\natexlab{b}})]{google_stats_dad_less}
-Google staistics, {\natexlab{b}}.
+\bibitem[goo(2016{\natexlab{b}})]{google_stats_dad_less}
+Google staistics, 2016{\natexlab{b}}.
 \newblock URL
   \url{https://www.google.com/trends/explore?q=Disciplined%20Agile%20Delivery,Large%20Scale%20Scrum}.
+\newblock Statistik på specifika sökord i Googles sökmotor de senste 5
+  åren. Sökning gjord 1.8.2016.
+
+\bibitem[les(2015{\natexlab{a}})]{less_casestudies}
+Large scale scrum fallstudier (www), 2015{\natexlab{a}}.
+\newblock URL \url{http://less.works/case-studies/}.
+\newblock Katalog över publicerade fallstudier om LeSS. Hämtad 30.7.2016.
+
+\bibitem[les(2015{\natexlab{b}})]{less_overview}
+Large scale scrum overview (www), 2015{\natexlab{b}}.
+\newblock URL \url{http://less.works/less/framework/}.
+\newblock LeSS Översikt. Refererat 10.8.2016.
 
 \bibitem[les(2014{\natexlab{a}})]{less_principles}
 Large scale scrum principles overview (www), 2014{\natexlab{a}}.
@@ -52,8 +70,20 @@ Large scale scrum (www), 2014{\natexlab{b}}.
 \newblock URL \url{http://less.works/}.
 \newblock LeSS webbsida. Refererat 30.6.2016.
 
-\bibitem[saf(2016)]{safe_principles}
-Scaled agile framework principles (www), 2016.
+\bibitem[saf(2014)]{safe_casestudies}
+Scaled agile framework fallstudier (www), 2014.
+\newblock URL \url{http://scaledagileframework.com/case-studies/}.
+\newblock Katalog över publicerade fallstudier om SAFe. Hämtad 30.7.2016.
+
+\bibitem[saf(2016{\natexlab{a}})]{safe_intro}
+Scaled agile framework introduction whitepaper, tillgänglig via safe webbidan,
+  2016{\natexlab{a}}.
+\newblock URL \url{http://scaledagile.com/safe-whitepaper/}.
+\newblock Ett introduktionsdokument distribuerat av Scaled Agile på SAFe:s
+  webbida. Refererat 14.8.2016.
+
+\bibitem[saf(2016{\natexlab{b}})]{safe_principles}
+Scaled agile framework principles (www), 2016{\natexlab{b}}.
 \newblock URL
   \url{http://scaledagileframework.com/safe-lean-agile-principles/}.
 \newblock SAFe principer. Refererat 8.7.2016.
@@ -69,9 +99,11 @@ Scrum guide, 2016.
   \url{http://www.scrumguides.org/docs/scrumguide/v2016/2016-Scrum-Guide-US.pdf}.
 \newblock Scrum guide skriven och publicerad av K. Schwaber och J. Sutherland.
 
-\bibitem[ver()]{version_one_report}
-Version one 10th annual report.
+\bibitem[ver(2015)]{version_one_report}
+Version one 10th annual report, 2015.
 \newblock URL
   \url{https://versionone.com/pdf/VersionOne-10th-Annual-State-of-Agile-Report.pdf}.
+\newblock En årlig rapport agil utvekling gjord av Version One. Hämtad
+  30.7.2016.
 
 \end{thebibliography}
