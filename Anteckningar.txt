@@ -10,5 +10,3 @@ Söktermer i google scholar:
 "Scaled agile framework"
 "Large scale scrum"
 "Disciplined Agile Delivery"
-
-

@@ -1,17 +1,16 @@
 % !TeX spellcheck = sv_SE
 \section{Inledning}
 	
-	Detta arbete jämför olika ramverk för uppskalning av agil programutveckling. Dessa beskriver hur man kan utnyttja traditionella agila metoder även i större organisationer och projekt. 
+	Detta arbete jämför olika ramverk för uppskalning av agil programutveckling. Dessa beskriver hur man kan utnyttja traditionella agila metoder även i större grupper och projekt. 
 	
-	Agila metoder, såsom Scrum, är riktade till grupper på mindre än 10 personer\cite{scrum_guide}, dock finns det projekt för grupper större än det som traditionellt lämpat sig för agil utveckling.
-	Behov för metoder att skala upp agil utveckling finns.
+	Agila metoder, såsom Scrum, är riktade till grupper på mindre än 10 personer\cite{scrum_guide}. Det finns dock projekt för grupper större än detta, och således även ett behov för metoder att skala upp traditionell agil utveckling.
 	
 	I rapporten gjord av Version One \cite{version_one_report} listas det upp ett flertal metoder för uppskalning av agil utveckling. Akademisk forskning om de olika metoderna existerar i stort sett inte alls, vilket gör det utmanande för företag att göra beslut om vilken metod som lämpar sig för deras behov. Även mångfalden av metoder, med mer eller mindre omfattande dokumentation, utgör ett hinder för företag att göra ett beslut om vilken metod de vill implementera. 	
 	I detta arbete ämnar man lyfta fram tre metoder för uppskalning av agil utveckling samt analysera och jämföra dom.
-	De metoder som beskrivs och jämförs är stödda av tillräcklig egen dokumentation för att klassas som egenstående ramverk, så att arbetet ska kunna tänkas användas som stöd för företag som försöker välja vilket ramverk som passar deras behov.	
+	De metoder som beskrivs och jämförs är stödda av tillräcklig egen dokumentation för att klassas som självstående ramverk, så att arbetet ska kunna tänkas användas som stöd för företag som försöker välja vilket ramverk som passar deras behov.
 	
 	Valet av de jämförda ramverken beskrivs noggrannare i stycke 3.
-	Syftet är att klargöra ifall det finns klara skilda användningsändamål för ramverken i fråga, samt vilka de största skillnaderna i implementationen är. Som grund för jämförelserna används fallstudier om implementation av ramverken i olika företag. För att jämföra ramverkens egenskaper används teknisk dokumentation som finns tillgänglig på ramverkens webbsidor.
+	Syftet är att klargöra ifall det finns klara skilda användningsändamål för ramverken i fråga, samt vilka de största skillnaderna i implementationen är. Som grund för jämförelserna används fallstudier om implementation av ramverken i olika företag. För att jämföra ramverkens egenskaper används teknisk dokumentation som finns tillgänglig bland annat via ramverkens webbsidor.
 	
 	Introduktionen utgör det första kapitlet i arbetet. Det andra kapitlet tar upp bakgrunden, samt går igenom nödvändiga förhandskunskaper. Efter det följer kapitel om syftet samt material och metodik. Fjärde kapitlet presenterar resultaten av materialet. Som sista kapitel sammanfattas arbetet med diskussion om resultaten samt eventuell fortsatt forskning.
 	
@@ -26,12 +25,12 @@
 	\subsection{Agil utveckling}
 	
 		Agil utveckling är en metod, eller en samling principer, för programutveckling. Principerna bygger på att bryta ner en stor helhet i små mindre självständiga delar, som man sedan utvecklar i skilda etapper, ofta kallade Sprinter.
-		Mellan varje sprint finns möjlighet för kunden och utvecklarna att komma med förändringsförslag och kommentera förra sprintens resultat. Varje sprint ska producera en fungerande helhet som läggs till huvudprodukten. Centrala begrepp och principer inom agil programutveckling är transparens, flexibilitet samt inkrementell och iterativ utveckling. Man värdesätter flexibilitet och kommunikation med kunden över en noggrant specificerad process som sedan följs. \cite{agile_manifesto}
+		Mellan varje sprint finns möjlighet för kunden och utvecklarna att komma med förändringsförslag och kommentera förra sprintens resultat. Varje sprint ska producera en fungerande helhet som kan läggas till huvudprodukten. Centrala begrepp och principer inom agil programutveckling är transparens, flexibilitet samt inkrementell och iterativ utveckling. Man värdesätter reaktionsmöjlighet och kommunikation med kunden över en på förhand noggrant specificerad process som sedan följs. \cite{agile_manifesto}
 		\\
 		Några ramverk för agil utveckling är Unified Process (UP), Extreme Programming (XP) och Scrum.
-		Scrum hör till de mest kända och allmänt använda ramverket, och som följd har många andra ramverk för både agil utveckling och skalning av detta baserats på Scrum. I detta arbete behandlas till exempel LeSS (Large Scale Scrum), som rakt översatt står för ``Scrum i stor skala''.
+		Scrum hör till de mest kända och allmänt använda ramverket, och som följd har många andra ramverk för både agil utveckling och skalning av detta baserats på Scrum. I detta arbete behandlas till exempel LeSS (Large Scale Scrum).
 		
-		Begrepp som förekommer inom Scrum är alltså även återkommande inom agil utveckling och skalning av den.
+		Terminologin och tankesättet som används i Scrum är alltså även återkommande inom agil utveckling i allmänhet och därmed också skalning av den.
 		
 	\subsection{Scrum i korthet}	
 		
@@ -63,6 +62,7 @@
 		
 		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Agil utveckling i stor skala följer således samma grundprinciper som traditionell agil utveckling. Metoder såsom Scrum implementeras ofta inom ett ramverk för agil uppskalning.
 
+		%todo läs om uppskaling av agil utveckling...
 		
 	\newpage
 
@@ -99,7 +99,7 @@
 		Huvudsakligt material för arbetet är fallstudier. Inte innehållet eller utfallen av fallstudierna utan meta-datan som går att få ur de studier som finns tillgängliga, såsom företagets bransch.
 				
 		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av tvivelaktiga metoder.
-		Det har liten betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
+		Det har dock mindre betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
 		
 		%
 		%Tabell över tillgängligt material för de olika ramverken:
@@ -180,21 +180,18 @@
 	\subsection{Disciplined Agile}
 			
 			DAD kan beskrivas som en kombination av ett flertal andra metoder, ett så kallat hybrid ramverk. DAD utnyttjar välgrundade tillvägagångssätt från bland annat SAFe och Scrum.
-			Ramverket har personer i centrum, och fokuserar på team-nivån. Dett går att se från konceptbilden i figur 3. \cite{dad_overview}
+			Ramverket har personer i centrum, och fokuserar på team-nivån. Detta går att se från konceptbilden i figur 3. \cite{dad_overview}
+		
 		\begin{center}
 			\includegraphics[scale=0.4]{Material/DAD_graphic.jpg}
 			\\ Figur 3: DAD Konceptbild. Källa: DAD Webbsida \cite{dad_web}
 		\end{center}
-		Några grundläggande DAD principer: \cite{dad_principles}
-		\begin{itemize}
-			\item Tyngdpunkt på tidiga och kontinuerliga leveranser av lösningar
-			\item Utnyttja föränderliga krav till att utöka kundens konkurrenskraft
-			\item Leverera fungerande del-lösningar med korta tidsintervall
-			\item Dagligt samarbete mellan produktens intressenter och utvecklare
-			\item Kommunikation som sker ansikte mot ansikte är den mest effektiva till och inom en arbetsgrupp
-			\item Fungerande och användbara lösningar är den primära måttstocken för framsteg
-		\end{itemize}
-			
+		
+	
+	\subsection{Jämförelse}
+	
+		
+	
 	
 	\subsection{Användningsområden}
 
