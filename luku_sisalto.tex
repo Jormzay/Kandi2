@@ -80,9 +80,10 @@
 		
 		Forskningsfrågor:
 		\begin{enumerate}
-			\item Hurudana företag väljer ett visst sorts ramverk
-			\item Vilken sorts skillnader finns det i implementationen av de olika ramverken
 			\item Vilka tekniska skillnader finns mellan ramverken
+			\item Vilken sorts skillnader finns det i implementationen av de olika ramverken
+			\item Hurudana företag väljer ett visst sorts ramverk
+			
 		\end{enumerate}
 			
 	
@@ -140,60 +141,70 @@
 	\subsection{Large-Scale Scrum}
 	
 	
-		Large-Scale Scrum har som grundläggande egenskap Scrum. Scrum-grupper håller egna interna scrum-möten med scrum-mästare, och upprätthåller egna sprint-backloggar. Ovanpå den traditionella Scrum-metodiken existerar produktöversträckande backloggar och sprint-uppföljning.
+		Large-Scale Scrum (LeSS), utvecklat av Craig Larman och Bas Vodde, är baserat på traditionell Scrum anpassat till att fungera med flera grupper. LeSS är riktat till projekt med minst två grupper som arbetar på samma produkt. Vidare är ramverket delat i två variationer, normal LeSS och LeSS Huge, som är till för 2 - 8 grupper och över 8 grupper respektivt. Bas Vodde beskriver Less Huge som många normala LeSS ramverk lagda ovanpå varandra.
 		
-		Ur figur 1 går att se de olika nivåerna av agilt tankesätt, och hur ramverket är byggt specifikt för Scrum. \cite{less_overview}
+		%todo en bild? Exempel på en iteration?		
 		
-		\begin{center}	
-			\includegraphics{Material/less_framework.png}
-		\\ Figur 1: Konceptbild på LeSS. Källa: Ramverkets webbsida. \cite{less_web}
-		\end{center}
-	
-		Några grundläggande LeSS principer är: \cite{less_principles}
-	
-		\begin{itemize}
-			\setlength{\itemsep}{1pt}
-			\item LeSS är Scrum - använd Scrum-principer oförändrat i ett större sammanhang			
-			\item Transparens
-			\item ''\textbf{More} with \textbf{LeSS}'' dvs. \textbf{Mera} med \textbf{mindre}
-				\begin{itemize}
-					\item \textbf{Mer} inlärning med \textbf{mindre} definierade processer
-					\item \textbf{Mer} värde med \textbf{mindre} omkostnader
-					\item \textbf{Mer} ägarskap och syfte med \textbf{mindre} huvudroller och specialgrupper
-				\end{itemize}
-			\item Kundcentrerat
-			\item Systemtänkande
-		\end{itemize}
+		%Ur figur 1 går att se de olika nivåerna av agilt tankesätt, och hur ramverket är byggt specifikt för Scrum. \cite{less_overview}
+		%
+		%\begin{center}	
+		%	\includegraphics{Material/less_framework.png}
+		%\\ Figur 1: Konceptbild på LeSS. Källa: Ramverkets webbsida. \cite{less_web}
+		%\end{center}
+		
+	%	Några grundläggande LeSS principer är: \cite{less_principles}
+	%
+	%	\begin{itemize}
+	%		\setlength{\itemsep}{1pt}
+	%		\item LeSS är Scrum - använd Scrum-principer oförändrat i ett större sammanhang			
+	%		\item Transparens
+	%		\item ''\textbf{More} with \textbf{LeSS}'' dvs. \textbf{Mera} med \textbf{mindre}
+	%			\begin{itemize}
+	%				\item \textbf{Mer} inlärning med \textbf{mindre} definierade processer
+	%				\item \textbf{Mer} värde med \textbf{mindre} omkostnader
+	%				\item \textbf{Mer} ägarskap och syfte med \textbf{mindre} huvudroller och specialgrupper
+	%			\end{itemize}
+	%		\item Kundcentrerat
+	%		\item Systemtänkande
+	%	\end{itemize}
 			
 	\subsection{Scaled Agile Framework}
 		
-		Till skillnad från LeSS som föreskriver Scrum tar SAFe inte ställning till vilken agil metods som tillämpas på team-nivå.
-		SAFe har fokus även på större helheter, såsom ledningen i ett företag, dess strategi och ekonomi. Detta framgår ur de två översta kategorierna i figur 2. \cite{safe_intro}
+		Scaled Agile Framework (SAFe), skapat av Dean Leffingwell etc.
+		Byggt kring Agile Release Train strukturen
+		-självorganiserade, innefattar alla nödvändiga grupper, intressenter och resurser för att kontinuerligt arbeta mot en specificerad lösning.
+		-Skapar gemensam riktning för grupper, ledare och stakeholders mot ett och samma mål.
+		-Levererar värdeökning i form av färdiga produktegenskaper och teknisk infrastruktur.
+
+		Solution train innefattar flera Agile Release Trains.
 		
-		\begin{center}
-			\includegraphics[scale=0.2]{Material/SAFeBigPicChart.jpg}
-			\\ Figur 2: Konceptbild på SAFe. Källa: Ramverkets webbsida. \cite{safe_web}
-		\end{center}
-		Några grundläggande SAFe principer är: \cite{safe_principles}
-		\begin{itemize}
-			\item Ekonomisk synpunkt
-			\item Systemtänkande
-			\item Förvänta förändring - bevara möjligheter
-			\item Bygg inkrementellt med snabba inlärningsintervall
-			\item Basera milstolpar på en objektiv värdering av ett fungerande system
-			\item Visualisera och begränsa pågående arbete
-		\end{itemize}
+		Kan utökas att inkludera portföljhantering, enskilt stora projekt eller både och (Full SAFe).
+		
+		
+		%\begin{center}
+		%	\includegraphics[scale=0.2]{Material/SAFeBigPicChart.jpg}
+		%	\\ Figur 2: Konceptbild på SAFe. Källa: Ramverkets webbsida. \cite{safe_web}
+		%\end{center}
+	%	Några grundläggande SAFe principer är: \cite{safe_principles}
+	%	\begin{itemize}
+	%		\item Ekonomisk synpunkt
+	%		\item Systemtänkande
+	%		\item Förvänta förändring - bevara möjligheter
+	%		\item Basera milstolpar på en objektiv värdering av ett fungerande system
+	%		\item Visualisera och begränsa pågående arbete
+	%	\end{itemize}
 			
 		
-	\subsection{Disciplined Agile}
+	\subsection{Disciplined Agile Delivery}
 			
-			DAD kan beskrivas som en kombination av ett flertal andra metoder, ett så kallat hybrid ramverk. DAD utnyttjar välgrundade tillvägagångssätt från bland annat SAFe och Scrum.
-			Ramverket har personer i centrum, och fokuserar på team-nivån. Detta går att se från konceptbilden i figur 3. \cite{dad_overview}
+		Primärt skapat av Scott W. Ambler, Disciplined Agile Delivery (DAD) är ett hybrid-ramverk som utgör grunden för ett ännu bredare ramverk kallat Disciplined Agile framework. DAD ger en samling verktyg) för att skräddarsy en process för agil utveckling som passar in i de specifika omständigheterna som organisationen befinner sig i. Verktygen kommer från många andra etablerade metoder såsom Scrum, och är orsaken till att DAD kan kallas för en hybrid. På grund av denna dynamik lämpar sig DAD för uppskalning, även om ramverkets användningsområde inte är begränsat till just uppskalning.
 		
-		\begin{center}
-			\includegraphics[scale=0.4]{Material/DAD_graphic.jpg}
-			\\ Figur 3: DAD Konceptbild. Källa: DAD Webbsida \cite{dad_web}
-		\end{center}
+		
+		
+		%\begin{center}
+		%	\includegraphics[scale=0.4]{Material/DAD_graphic.jpg}
+		%	\\ Figur 3: DAD Konceptbild. Källa: DAD Webbsida \cite{dad_web}
+		%\end{center}
 			
 	
 	\subsection{Fallstudier}
