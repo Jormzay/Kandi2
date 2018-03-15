@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{10}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -19,17 +19,11 @@ Agile scaling knowledge matrix.
 \newblock En matris sammanställd av agilescaling.org som innehåller basfakta
   om aktuella ramverk för uppskalning av agila metoder.
 
-\bibitem[dad(2014{\natexlab{a}})]{dad_overview}
-Disciplined agile delivery overview (www), 2014{\natexlab{a}}.
-\newblock URL
-  \url{http://www.disciplinedagiledelivery.com/introduction-to-dad/}.
-\newblock DAD Översikt. Refererat 11.8.2016.
-
-\bibitem[dad(2014{\natexlab{b}})]{dad_principles}
-Disciplined agile delivery principles and manifesto (www), 2014{\natexlab{b}}.
-\newblock URL
-  \url{http://www.disciplinedagiledelivery.com/disciplinedagilemanifesto/}.
-\newblock DAD Principer och manifest. Refererat 8.7.2016.
+\bibitem[bar(2016)]{barclays_interview}
+"benefits of agile at barclays" intervju (www), 2016.
+\newblock URL \url{https://www.infoq.com/news/2016/09/benefits-agile-barclays}.
+\newblock Intervju om bakgrunden till agil adoption på Barclays. Hämtad
+  10.3.2018.
 
 \bibitem[dad(2016)]{dad_web}
 Dicsiplined agile delivery (www), 2016.
@@ -50,48 +44,15 @@ Google staistics, 2016{\natexlab{b}}.
 \newblock Statistik på specifika sökord i Googles sökmotor de senste 5
   åren. Sökning gjord 1.8.2016.
 
-\bibitem[les(2015{\natexlab{a}})]{less_casestudies}
-Large scale scrum fallstudier (www), 2015{\natexlab{a}}.
+\bibitem[les(2015)]{less_casestudies}
+Large scale scrum fallstudier (www), 2015.
 \newblock URL \url{http://less.works/case-studies/}.
 \newblock Katalog över publicerade fallstudier om LeSS. Hämtad 30.7.2016.
-
-\bibitem[les(2015{\natexlab{b}})]{less_overview}
-Large scale scrum overview (www), 2015{\natexlab{b}}.
-\newblock URL \url{http://less.works/less/framework/}.
-\newblock LeSS Översikt. Refererat 10.8.2016.
-
-\bibitem[les(2014{\natexlab{a}})]{less_principles}
-Large scale scrum principles overview (www), 2014{\natexlab{a}}.
-\newblock URL \url{http://less.works/less/principles/overview.html}.
-\newblock Översikt över LeSS principer. Refererat 8.7.2016.
-
-\bibitem[les(2014{\natexlab{b}})]{less_web}
-Large scale scrum (www), 2014{\natexlab{b}}.
-\newblock URL \url{http://less.works/}.
-\newblock LeSS webbsida. Refererat 30.6.2016.
 
 \bibitem[saf(2014)]{safe_casestudies}
 Scaled agile framework fallstudier (www), 2014.
 \newblock URL \url{http://scaledagileframework.com/case-studies/}.
 \newblock Katalog över publicerade fallstudier om SAFe. Hämtad 30.7.2016.
-
-\bibitem[saf(2016{\natexlab{a}})]{safe_intro}
-Scaled agile framework introduction whitepaper, tillgänglig via safe webbidan,
-  2016{\natexlab{a}}.
-\newblock URL \url{http://scaledagile.com/safe-whitepaper/}.
-\newblock Ett introduktionsdokument distribuerat av Scaled Agile på SAFe:s
-  webbida. Refererat 14.8.2016.
-
-\bibitem[saf(2016{\natexlab{b}})]{safe_principles}
-Scaled agile framework principles (www), 2016{\natexlab{b}}.
-\newblock URL
-  \url{http://scaledagileframework.com/safe-lean-agile-principles/}.
-\newblock SAFe principer. Refererat 8.7.2016.
-
-\bibitem[saf(2010)]{safe_web}
-Scaled agile framework (www), 2010.
-\newblock URL \url{http://scaledagileframework.com/}.
-\newblock SAFe webbisda. Refererat 30.6.2016.
 
 \bibitem[scr(2016)]{scrum_guide}
 Scrum guide, 2016.
