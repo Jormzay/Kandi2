@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{11}
 \input babelbst.tex
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
@@ -18,12 +18,6 @@ Agile scaling knowledge matrix.
 \newblock URL \url{http://www.agilescaling.org/ask-matrix.html}.
 \newblock En matris sammanställd av agilescaling.org som innehåller basfakta
   om aktuella ramverk för uppskalning av agila metoder.
-
-\bibitem[bar(2016)]{barclays_interview}
-"benefits of agile at barclays" intervju (www), 2016.
-\newblock URL \url{https://www.infoq.com/news/2016/09/benefits-agile-barclays}.
-\newblock Intervju om bakgrunden till agil adoption på Barclays. Hämtad
-  10.3.2018.
 
 \bibitem[dad(2016)]{dad_web}
 Dicsiplined agile delivery (www), 2016.
@@ -66,5 +60,21 @@ Version one 10th annual report, 2015.
   \url{https://versionone.com/pdf/VersionOne-10th-Annual-State-of-Agile-Report.pdf}.
 \newblock En årlig rapport agil utvekling gjord av Version One. Hämtad
   30.7.2016.
+
+\bibitem[Linders(2016)]{barclays_interview}
+Ben Linders.
+\newblock Benefits of agile at barclays - intervju (www), 2016.
+\newblock URL \url{https://www.infoq.com/news/2016/09/benefits-agile-barclays}.
+\newblock Intervju om bakgrunden till agil adoption på Barclays. Hämtad
+  10.3.2018.
+
+\bibitem[Plumpton(2016)]{deutsche_case}
+John Plumpton.
+\newblock Successfully adopting safe and mastering organisational change -
+  presentation (www), 2016.
+\newblock URL
+  \url{http://www.agileconference.org/wp-content/uploads/2016/10/The-Essential-Role-of-Leadership-Successfully-adopting-SAFe-and-mastering-organisational-change-John-Plumpton.pdf}.
+\newblock Presentation om implementation av SAFe på Deutsche Bank. Hämtad
+  9.4.2018.
 
 \end{thebibliography}

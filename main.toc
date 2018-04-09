@@ -16,11 +16,14 @@
 \contentsline {subsection}{\numberline {4.2}Scaled Agile Framework}{9}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Disciplined Agile Delivery}{9}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Fallstudier}{10}{subsection.4.4}
-\contentsline {subsubsection}{\numberline {4.4.1}Branscher - Data}{10}{subsubsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.2}Branscher - Slutsatser}{11}{subsubsection.4.4.2}
-\contentsline {subsection}{\numberline {4.5}Popularitet och adoption}{11}{subsection.4.5}
+\contentsline {subsubsection}{\numberline {4.4.1}LeSS Fallstudier}{10}{subsubsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.2}SAFe Fallstudier}{10}{subsubsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.3}DAD Fallstudier}{10}{subsubsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.4}Branscher - Data}{10}{subsubsection.4.4.4}
+\contentsline {subsubsection}{\numberline {4.4.5}Branscher - Slutsatser}{12}{subsubsection.4.4.5}
+\contentsline {subsection}{\numberline {4.5}Popularitet och adoption}{12}{subsection.4.5}
 \contentsline {section}{\numberline {5}Analys}{14}{section.5}
 \contentsline {subsection}{\numberline {5.1}J\IeC {\"a}mf\IeC {\"o}relse}{14}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Anv\IeC {\"a}ndningsomr\IeC {\r a}den}{14}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Diskussion och fortsatt forskning}{14}{subsection.5.3}
-\contentsline {section}{Referenser}{15}{subsection.5.3}
+\contentsline {section}{Referenser}{16}{subsection.5.3}
