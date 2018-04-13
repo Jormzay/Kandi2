@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  12 APR 2018 15:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.24)  13 APR 2018 14:32
 entering extended mode
 **main.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.tex
@@ -496,102 +496,71 @@ Overfull \hbox (2.60674pt too wide) in paragraph at lines 14--27
  [3
 
 ]
-(C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\luku_sisalto.tex [4]
-Overfull \hbox (0.83438pt too wide) in paragraph at lines 29--34
-\T1/cmr/m/n/12 Agil ut-veck-ling är en me-tod, el-ler en sam-ling prin-ci-per, 
-för pro-gram-ut-veck-ling. Prin-ci-per-na
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+(C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\luku_sisalto.tex [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--49
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 50--52
-
- []
-
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
-
- []
-
-
-Overfull \hbox (8.62854pt too wide) in paragraph at lines 104--105
-\T1/cmr/m/n/12 Huvudsakligt ma-te-ri-al för ar-be-tet är fall-stu-di-er. In-te 
-in-ne-hål-let el-ler ut-fal-len av fall-stu-di-er-na
- []
-
-[7] [8] [9] [10] <Grafer/LeSS_brancher.png, id=197, 329.73187pt x 201.75375pt>
+[6] [7] [8] [9] <Grafer/LeSS_brancher.png, id=185, 329.73187pt x 201.75375pt>
 File: Grafer/LeSS_brancher.png Graphic file (type png)
 
 <use Grafer/LeSS_brancher.png>
-Package pdftex.def Info: Grafer/LeSS_brancher.png used on input line 261.
+Package pdftex.def Info: Grafer/LeSS_brancher.png used on input line 227.
 (pdftex.def)             Requested size: 329.73105pt x 201.75325pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--266
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-<Grafer/SAFe_brancher.png, id=199, 328.22626pt x 195.73125pt>
+<Grafer/SAFe_brancher.png, id=187, 328.22626pt x 195.73125pt>
 File: Grafer/SAFe_brancher.png Graphic file (type png)
 
 <use Grafer/SAFe_brancher.png>
-Package pdftex.def Info: Grafer/SAFe_brancher.png used on input line 270.
+Package pdftex.def Info: Grafer/SAFe_brancher.png used on input line 236.
 (pdftex.def)             Requested size: 328.22545pt x 195.73076pt.
- [11 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/LeSS_brancher.png
-> <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/SAFe_brancher.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+ [10 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/LeSS_brancher.png
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
 
  []
 
-<Grafer/AnnualReport_Adoption.png, id=208, 412.03937pt x 224.33812pt>
+[11 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/SAFe_brancher.png>
+] <Grafer/AnnualReport_Adoption.png, id=200, 412.03937pt x 224.33812pt>
 File: Grafer/AnnualReport_Adoption.png Graphic file (type png)
 
 <use Grafer/AnnualReport_Adoption.png>
-Package pdftex.def Info: Grafer/AnnualReport_Adoption.png used on input line 29
-6.
+Package pdftex.def Info: Grafer/AnnualReport_Adoption.png used on input line 26
+2.
 (pdftex.def)             Requested size: 412.03836pt x 224.33757pt.
- [12]
-<Grafer/Google_sokningar.png, id=215, 458.21187pt x 271.0125pt>
+
+<Grafer/Google_sokningar.png, id=203, 458.21187pt x 271.0125pt>
 File: Grafer/Google_sokningar.png Graphic file (type png)
 
 <use Grafer/Google_sokningar.png>
-Package pdftex.def Info: Grafer/Google_sokningar.png used on input line 311.
+Package pdftex.def Info: Grafer/Google_sokningar.png used on input line 277.
 (pdftex.def)             Requested size: 458.21075pt x 271.01183pt.
 
-Overfull \hbox (5.24289pt too wide) in paragraph at lines 311--312
+Overfull \hbox (5.24289pt too wide) in paragraph at lines 277--278
  [] 
  []
 
-[13 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/AnnualReport_Adopt
+[12 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/AnnualReport_Adopt
 ion.png>]
-<Grafer/Google_sokningar_dad_less.png, id=222, 456.20438pt x 169.63374pt>
+<Grafer/Google_sokningar_dad_less.png, id=209, 456.20438pt x 169.63374pt>
 File: Grafer/Google_sokningar_dad_less.png Graphic file (type png)
 
 <use Grafer/Google_sokningar_dad_less.png>
 Package pdftex.def Info: Grafer/Google_sokningar_dad_less.png used on input lin
-e 320.
+e 286.
 (pdftex.def)             Requested size: 456.20325pt x 169.63332pt.
 
-Overfull \hbox (3.23538pt too wide) in paragraph at lines 320--321
+Overfull \hbox (3.23538pt too wide) in paragraph at lines 286--287
  [] 
  []
 
-[14 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/Google_sokningar.p
+[13 <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/Google_sokningar.p
 ng> <C:/Users/Jonathan/Documents/GitHub/Kandi2/Kandi2/Grafer/Google_sokningar_d
-ad_less.png>]) [15] (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.bbl
+ad_less.png>]) [14] (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\main.bbl
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\babelbst.tex
 (C:\Users\Jonathan\Documents\GitHub\Kandi2\Kandi2\swedbst.tex))
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 13.
@@ -669,7 +638,7 @@ $\T1/cmtt/m/n/12 The-[]Essential-[]Role-[]of-[]Leadership-[]Successfully-[]adop
 ting-[]SAFe-[]and-[]mastering-[]organisational-[]change-[]John-[]Plumpton .$
  []
 
-) [16
+) [15
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
@@ -678,17 +647,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3E6C66907AAD677C6FF1643B5AF7EB01;1695.
+(rerunfilecheck)             Checksum: E612BA4E20648F553FC3CC93C647B26E;1627.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 9612 strings out of 493921
- 134537 string characters out of 3147273
+ 9609 strings out of 493921
+ 134500 string characters out of 3147273
  228995 words of memory out of 3000000
- 12677 multiletter control sequences out of 15000+200000
+ 12676 multiletter control sequences out of 15000+200000
  14776 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,36p,812b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,36p,893b,519s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi6
 00\ectt1200.pk> <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jkn
 appen\ec\dpi600\ecbx1440.pk> <C:\Users\Jonathan\AppData\Local\MiKTeX\2.9\fonts\
@@ -696,11 +665,10 @@ pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Jonathan\AppData\Local\MiKT
 eX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk> <C:\Users\Jonathan\AppDa
 ta\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2074.pk> <C:\Users\J
 onathan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (16 pages, 277546 bytes).
+>
+Output written on main.pdf (15 pages, 258278 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 564 PDF objects out of 1000 (max. 8388607)
+ 55 named destinations out of 1000 (max. 500000)
+ 218 words of extra memory for PDF output out of 10000 (max. 10000000)
 

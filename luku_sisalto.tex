@@ -1,70 +1,33 @@
 % !TeX spellcheck = sv_SE
 \section{Inledning}
 	
-	Detta arbete jämför olika ramverk för uppskalning av agil programutveckling. Dessa beskriver hur man kan utnyttja traditionella agila metoder även i större grupper och projekt. 
+	Detta arbete jämför tre ramverk för uppskalning av agil programutveckling, Large Scale Scrum (LeSS), Scaled Agile Framework (SaFE) och Disciplined Agile Delivery (DAD). Dessa beskriver hur man kan implementera agil utveckling i projekt och organisationer med tiotals grupper och en geografisk utspridning. DAD skiljer sig mest från de andra i och med att det är riktgivande och en hybrid av många olika metoder, medan SAFe och LeSS båda är noggrannare beskrivningar med specifika rekommendationer.
+	Traditionella Agila metoder, till exempel Scrum, är riktade till grupper på mindre än 10 personer och bygger på kontinuerlig kommunikation mellan all i gruppen.\cite{scrum_guide}. Det finns dock projekt för flera och grupper större än detta, var kommunikation inte kan ske mellan alla medlemmar, och således även ett behov för metoder att skala upp traditionell agil utveckling.
 	
-	Agila metoder, såsom Scrum, är riktade till grupper på mindre än 10 personer\cite{scrum_guide}. Det finns dock projekt för grupper större än detta, och således även ett behov för metoder att skala upp traditionell agil utveckling.
+	I rapporten gjord av Version One \cite{version_one_report} listas det upp ett flertal metoder för uppskalning av agil utveckling. I detta arbete ämnar man lyfta fram tre metoder för uppskalning av agil utveckling samt analysera och jämföra dom. De metoder som beskrivs och jämförs är stödda av tillräcklig egen dokumentation för att klassas som självstående ramverk, så att arbetet ska kunna tänkas användas som stöd för företag som försöker välja vilket ramverk som passar deras behov.
 	
-	I rapporten gjord av Version One \cite{version_one_report} listas det upp ett flertal metoder för uppskalning av agil utveckling.
-	
-	I detta arbete ämnar man lyfta fram tre metoder för uppskalning av agil utveckling samt analysera och jämföra dom.
-	De metoder som beskrivs och jämförs är stödda av tillräcklig egen dokumentation för att klassas som självstående ramverk, så att arbetet ska kunna tänkas användas som stöd för företag som försöker välja vilket ramverk som passar deras behov.
-	
-	Valet av de jämförda ramverken beskrivs noggrannare i stycke 3.
-	Syftet är att klargöra ifall det finns klara skilda användningsändamål för ramverken i fråga, samt vilka de största skillnaderna i implementationen är. Som grund för jämförelserna används fallstudier om implementation av ramverken i olika företag. För att jämföra ramverkens egenskaper används teknisk dokumentation som finns tillgänglig bland annat via ramverkens webbsidor.
-	
-	Arbetet innefattar bakgrunden, begrepp och annan nödvändig förhandskunskap. Efter det följer kapitel om syftet samt material och metodik. Till slut presenteras analysen och resultat av materialet. Som sista kapitel sammanfattas arbetet med diskussion om resultaten samt eventuell fortsatt forskning.
+	Syftet är att klargöra skillnaden i implementationen av de olika ramverken, samt kartlägga de tekniska skillnaderna. Som grund för jämförelserna används fallstudier om implementation av ramverken i olika företag och allmän teknisk dokumentation. Arbetet innefattar bakgrunden, begrepp och annan nödvändig förhandskunskap. Efter det följer kapitel om syftet samt material och metodik. Till slut presenteras analysen och resultat av materialet. Som sista kapitel sammanfattas arbetet med diskussion om resultaten samt eventuell fortsatt forskning.
 	
 	
-	%meta
 	%todo skriv Metatexten EFTER att du har fucking skrivit arbetet
+
 \newpage
 \section{Bakgrund}
 %Begrepp & Definitioner?
 	
-	I detta stycke behandlas den tekniska bakgrunden till arbetet. Central bakgrundskunskap förutsatt av läsaren presenteras här.
+	I detta stycke behandlas den tekniska bakgrunden till arbetet. Bakgrundskunskap förutsatt av läsaren presenteras här.
 	
 	\subsection{Agil utveckling}
 	
-		Agil utveckling är en metod, eller en samling principer, för programutveckling. Principerna bygger på att bryta ner en stor helhet i små mindre självständiga delar, som man sedan utvecklar i skilda etapper, ofta kallade Sprinter.
-		Mellan varje sprint finns möjlighet för kunden och utvecklarna att komma med förändringsförslag och kommentera förra sprintens resultat. Varje sprint ska producera en fungerande helhet som kan läggas till huvudprodukten. Centrala begrepp och principer inom agil programutveckling är transparens, flexibilitet samt inkrementell och iterativ utveckling. Man värdesätter reaktionsmöjlighet och kommunikation med kunden över en på förhand noggrant specificerad process som sedan följs. \cite{agile_manifesto}
-		\\
-		Några ramverk för agil utveckling är Unified Process (UP), Extreme Programming (XP) och Scrum.
-		Scrum hör till de mest kända och allmänt använda ramverket, och som följd har många andra ramverk för både agil utveckling och skalning av detta baserats på Scrum. I detta arbete behandlas till exempel LeSS (Large Scale Scrum).
-		
-		Terminologin och tankesättet som används i Scrum är alltså även återkommande inom agil utveckling i allmänhet och därmed också skalning av den.
-		
-	\subsection{Scrum som ramverk}	
-		%---> Scrum som ramverk
-		Centrala roller i Scrum är produktägare, scrum-mästare och scrum-team. Dessa samverkar genom sprint-planering, dagliga scrum-möten och post-sprint återblick. De upprätthåller bland annat orderstocken.
-		
-		\textbf{Backlogg} \\
-		En lista på delmoment av slutprodukten som ännu ska implementeras. Upprätthålls i huvudsak av produktägaren. \\	
-		
-		\textbf{Scrum-team} \\
-		Består av en grupp på optimalt tre till nio personer. Utvecklar under varje sprint de överenskomna delarna av orderstocken. \\
-		
-		\textbf{Produktägare} \\
-		Upprätthåller orderstocken genom att tydligt presentera och prioritera de olika delarna. \\
-		
-		\textbf{Scrum-mästare} \\
-		Övervakar och ser till att Scrum-principer följs i hela processen. \\
-		
-		Inför varje sprint hålls en sprint-planering, under vilken de delar ur orderstocken som ska utvecklas under sprinten väljs.
-		%todo Skriv om scrum i korthet, men med tyngpunkt på begrepp inom agile.
-			
-		\cite{scrum_guide}
+		Agil utveckling är en metod, eller en samling principer, för programutveckling som bygger på att bryta ner stora helheter i små mindre självständiga delar som man sedan utvecklar i skilda etapper. Mellan varje etapp, ofta kallad sprint, reflekteras resultatet gentemot planen och eventuella justeringar görs i planeringen av nästa sprint. Varje sprint ska i allmänhet producera en fungerande helhet som kan läggas till huvudprodukten. Agil utveckling ersätter tidigare använda så kallade vattenfall-metoder som är linjära och kan tänkas bygga på en enda lång väldefinierad sprint. Skillnaden i agil programutveckling gentemot vattenfall är främst transparens och flexibilitet: man värdesätter reaktionsmöjlighet och kommunikation med kunden över en på förhand noggrant specificerad process som sedan följs. \cite{agile_manifesto}
 		
 
 	\subsection{Skalning av agil utveckling}
-	%Vad är skalning, hur får mad det att fungera. I vilka dimensioner. När uppkom behovet?
+	%Vad är skalning, hur får man det att fungera. I vilka dimensioner. När uppkom behovet?
 		
-		Agil utveckling har traditionellt applicerats på låg nivå med små grupper och projekt. Det finns en efterfrågan på agila metoder också när det kommer till större projekt som involverar ett flertal grupper. Som sådan kan inte en agil metod, såsom Scrum, användas eftersom principerna däri bygger på en mindre grupp och kommunikation mellan ett fåtal personer.
-		Alla projekt kan inte enkelt brytas ner och fördelas på grupper som faller inom ramen för traditionell agil utveckling, så ett konkret behov för nyare metoder uppstår.
+		Agil utveckling har traditionellt applicerats med små grupper och lokala projekt inom organisationer. Som sådan kan inte en agil metod, såsom Scrum, användas i större sammanhang eller för en hel organisation, eftersom principerna däri bygger på en mindre grupp och kommunikation mellan ett fåtal personer. Projekt kan inte heller alltid enkelt brytas ner och fördelas på grupper som faller inom ramen för traditionell agil utveckling, så ett konkret behov för nyare metoder uppstår då man agilt vill utveckla större helheter.
 		
-		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Agil utveckling i stor skala följer således samma grundprinciper som traditionell agil utveckling. Metoder såsom Scrum implementeras ofta inom ett ramverk för agil uppskalning.
-
-		%todo läs om uppskaling av agil utveckling...
+		Fokus för uppskalning ligger dock inte på att skapa helt nya metoder och principer, utan snarare på att modifiera tidigare använda metoder så att de lämpar sig i större sammanhang. Man vill alltså skala upp etablerade metoder inom Agil utveckling. Dessa uppskalade metoder följer således samma grundprinciper som traditionell agil utveckling, och innehåller ofta element från ramverk såsom Scrum. Ramverken som behandlas i detta arbete är skapade i precis detta syfte.
 		
 	\newpage
 
@@ -74,17 +37,13 @@
 	\subsection{Syfte}
 	%TODO: Syftet med arbetet
 	
-		Syftet med arbetet är att klargöra vilka skillnader det finns mellan olika ramverk för skalning av agil utveckling. Tekniska skillnader i användningen och definitionerna av ramverken pekas ut och analyseras.
-		Tyngdpunkten ligger på att redogöra för vilka situationer olika ramverk lämpar sig bättre än andra, och att ställa ramverkens styrkor och svagheter mot varandra. \newline
-		
-		%Styrkor vs svagheter? Gör eller vaska!
+		Syftet med arbetet är att klargöra vilka skillnader det finns mellan olika ramverk för skalning av agil utveckling. Tekniska skillnader i användningen och definitionerna av ramverken pekas ut och analyseras.	Tyngdpunkten ligger på att redogöra för vilka situationer olika ramverk lämpar sig bättre än andra, och att ställa ramverkens styrkor och svagheter mot varandra. \newline
 		
 		Forskningsfrågor:
 		\begin{enumerate}
 			\item Vilka tekniska skillnader finns mellan ramverken
 			\item Vilken sorts skillnader finns det i implementationen av de olika ramverken
 			\item Hurudana företag väljer ett visst sorts ramverk
-			
 		\end{enumerate}
 			
 	
@@ -93,18 +52,16 @@
 	
 		Ramverken som jämförs i detta arbete är begränsade till Large Scale Scrum (LeSS), Scaled Agile Framework (SAFe) samt Disciplined Agile Delivery (DAD).
 		
-		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte uppnått samma användningsnivå som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet i och med att det till skillnad från ett flertal andra metoder styrks av omfattande dokumentation som till sin kvalité är fullt jämförbar med den tillgänglig för Less och SAFe.
+		Av dessa tre är LeSS och SAFe mer etablerade och har används i relativt stor utsträckning. DAD är ett nyare ramverk, och har således inte haft lika mycket tid att bygga användargrund som de andra. DAD fungerar dock som en bra jämförelsepunkt i arbetet då det till skillnad från ett flertal andra metoder styrks av omfattande dokumentation som till sin kvalité är fullt jämförbar med den tillgänglig för Less och SAFe.
 		\cite{ask_matrix}
 		
-		Många metoder för skalning av agil utveckling ligger i gränsområdet mellan att kunna kallas enskilt ramverk eller ej. Den mest populära enligt Agile Scaling Knowledge (ASK) och Version One är Scrum of Scrums \cite{ask_matrix} \cite{version_one_report}. Scrum of Scrums är en enkel förlängning på normal Scrum, där scrum-mästarna för många olika grupper träffas och inom sig har ett eget scrum-möte. Detta är inte tillräckligt för att kunna klassas som egenstående ramverk. Detsamma gäller andra härledda metoder som används inom vissa organisationer, såsom Spotifys egna modell.
+		Många metoder för skalning av agil utveckling ligger i gränsområdet mellan att kunna kallas enskilt ramverk eller ej. Den mest populära enligt Agile Scaling Knowledge (ASK) och Version One är Scrum of Scrums \cite{ask_matrix} \cite{version_one_report}. Scrum of Scrums är en enkel förlängning på normal Scrum, där scrum-mästarna för många olika grupper träffas och inom sig har ett eget scrum-möte. Detta är inte tillräckligt för att kunna klassas som egenstående ramverk, och detsamma gäller andra härledda metoder som används inom vissa organisationer, såsom Spotifys egna modell.
 		
 	\subsection{Material och metoder}
 	%TODO: Beskriv arbtessättet, speciellt för informationssökningens del
 		
-		Huvudsakligt material för arbetet är fallstudier. Inte innehållet eller utfallen av fallstudierna utan meta-datan som går att få ur de studier som finns tillgängliga, såsom företagets bransch.
+		Huvudsakligt material för arbetet är fallstudier och teknisk dokumentation för ramverken. Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier varierar kraftigt i format och användning av kvalitativ data. Dock finns det rikligt med fallstudier tillgängliga bland annat från ramverkens egna hemsidor. Alla tre ramverk styrks dessutom av utförlig teknisk dokumentation som spelar stor roll i jämförelsen av egenskaper.
 				
-		Arbetets analys och slutsatser är starkt bundna av tillgången till material och på kvalitén av det tillgängliga materialet. Speciellt fallstudier kan vara vinklade i något visst ramverks fördel, eftersom företag inte vill rapportera dåliga resultat eller misslyckade projekt. Konsulter vill ofta inte heller erkänna att de använt sig av tvivelaktiga metoder.
-		Det har dock mindre betydelse då arbetet fokuserar på vilken sorts företag som använde sig av metoden, och inte specifikt hur utfallet blev.
 		
 		%
 		%Tabell över tillgängligt material för de olika ramverken:
@@ -120,8 +77,7 @@
 		%
 		%Källa: Ramverkens respektive hemsidor\cite{dad_web, less_web, safe_web}, samt sökningar i vetenskapliga %databaser(via bl.a. Google Scholar) med ramverken som sökord.
 		%
-		Samtliga ramverk har utförliga webbsidor med mycket allmän och teknisk information om ramverken. Samtliga fallstudier är hämtade från ramverkens hemsidor.
-		
+
 		%Ur tabellen ovan går att se en tydlig brist i fallstudier för DAD. Teknisk dokumentation finns till ändamålsenlig grad, men på grund av bristande data om användningsområden förblir analysen till viss mån ytlig för ramverket i fråga.
 		%Brist på data och fallstudier beror främst på ramverkets begränsade adoption bland större företag.
 	
@@ -142,72 +98,33 @@
 	\subsection{Large-Scale Scrum}
 	
 	
-		Large-Scale Scrum (LeSS), utvecklat av Craig Larman och Bas Vodde, är baserat på traditionell Scrum anpassat till att fungera med flera grupper. LeSS är riktat till projekt med minst två grupper som arbetar på samma produkt. Vidare är ramverket delat i två variationer, normal LeSS och LeSS Huge, som är till för 2 - 8 grupper och över 8 grupper respektivt. Bas Vodde beskriver Less Huge som många normala LeSS ramverk lagda ovanpå varandra.
+		Large-Scale Scrum (LeSS), utvecklat av Craig Larman och Bas Vodde, är baserat på traditionell Scrum anpassat till att fungera med flera grupper. LeSS är riktat till projekt med minst två grupper som arbetar på samma produkt. Vidare är ramverket delat i två variationer, normal LeSS och LeSS Huge, som är till för 2 - 8 grupper och över 8 grupper respektivt. Normal LeSS går mycket nära Scrum i sina processer, med exakt en produktägare med exakt en backlogg. Varje grupp fokuserar på en funktion, eller feature, var alla personer ska kunna arbeta i alla roller. En sprint är gemensam för hela produkten, och sker samtidigt för samtliga grupper.
 		
+		Bas Vodde beskriver Less Huge som många normala LeSS ramverk lagda ovanpå varandra, med områdesspecifika ägare och backloggar som tillägg till den enskilda produktägaren och backloggen. Ett område innefattar relaterade egenskaper av produkten som i integrationssyfte är vettiga att hålla tillsammans. Synkroniserade och för hela produkten gemensamma sprints bibehålls även i LeSS Huge. \cite{less_overview}
+			
 		
-		
-		
-		%todo en bild? Exempel på en iteration?		
-		
-		
-		%Ur figur 1 går att se de olika nivåerna av agilt tankesätt, och hur ramverket är byggt specifikt för Scrum. \cite{less_overview}
-		%
+			
 		%\begin{center}	
 		%	\includegraphics{Material/less_framework.png}
 		%\\ Figur 1: Konceptbild på LeSS. Källa: Ramverkets webbsida. \cite{less_web}
 		%\end{center}
 		
-	%	Några grundläggande LeSS principer är: \cite{less_principles}
-	%
-	%	\begin{itemize}
-	%		\setlength{\itemsep}{1pt}
-	%		\item LeSS är Scrum - använd Scrum-principer oförändrat i ett större sammanhang			
-	%		\item Transparens
-	%		\item ''\textbf{More} with \textbf{LeSS}'' dvs. \textbf{Mera} med \textbf{mindre}
-	%			\begin{itemize}
-	%				\item \textbf{Mer} inlärning med \textbf{mindre} definierade processer
-	%				\item \textbf{Mer} värde med \textbf{mindre} omkostnader
-	%				\item \textbf{Mer} ägarskap och syfte med \textbf{mindre} huvudroller och specialgrupper
-	%			\end{itemize}
-	%		\item Kundcentrerat
-	%		\item Systemtänkande
-	%	\end{itemize}
-			
 	\subsection{Scaled Agile Framework}
 		
-		Scaled Agile Framework (SAFe), skapat av Dean Leffingwell, är ett ramverk gjort för levereras av stora projekt och portföljhantering genom agil utveckling mellan flera grupper. Ramverket kan anpassas till behov, genom att lämna bort portföljaspekten till exempel.
-		Centralt i SAFe är konceptet om Agile Release Trains (ART), som sammanbinder resurser, grupper och intressenter som behövs för ett specifikt mål. Inom ARTs skapas en gemensam riktning för de involverade, och gruppernas iterationer synkroniseras för gemensam leverans av produktinkrement.
-		
-		Byggt kring Agile Release Train strukturen
-		-självorganiserade, innefattar alla nödvändiga grupper, intressenter och resurser för att kontinuerligt arbeta mot en specificerad lösning.
-		-Skapar gemensam riktning för grupper, ledare och stakeholders mot ett och samma mål.
-		-Levererar värdeökning i form av färdiga produktegenskaper och teknisk infrastruktur.
-
-		Solution Train innefattar flera Agile Release Trains.
-		
-		Kan utökas att inkludera portföljhantering, enskilt stora projekt eller både och (Full SAFe).
+		Scaled Agile Framework (SAFe), skapat av Dean Leffingwell, är ett ramverk gjort för levereras av stora projekt och portföljhantering genom agil utveckling mellan flera grupper. Ramverket kan anpassas till specifika behov, genom att lämna bort portföljaspekten till exempel.
+		Centralt i SAFe är konceptet om Agile Release Trains (ART), som sammanbinder resurser, grupper och intressenter som behövs för ett specifikt mål. Inom ARTs skapas en gemensam riktning för de involverade, och gruppernas iterationer synkroniseras för gemensam leverans av produktinkrement. I större skala definieras Solution Train som innefattar flera Agile Release Trains för att vid behov bygga upp mer omfattande lösningar.
 				
-		%todo en iteration = Program Increment, vad innefattar det
-		
+	
 		%\begin{center}
 		%	\includegraphics[scale=0.2]{Material/SAFeBigPicChart.jpg}
 		%	\\ Figur 2: Konceptbild på SAFe. Källa: Ramverkets webbsida. \cite{safe_web}
 		%\end{center}
-	%	Några grundläggande SAFe principer är: \cite{safe_principles}
-	%	\begin{itemize}
-	%		\item Ekonomisk synpunkt
-	%		\item Systemtänkande
-	%		\item Förvänta förändring - bevara möjligheter
-	%		\item Basera milstolpar på en objektiv värdering av ett fungerande system
-	%		\item Visualisera och begränsa pågående arbete
-	%	\end{itemize}
 			
 		
 	\subsection{Disciplined Agile Delivery}
 			
 		Primärt skapat av Scott W. Ambler, Disciplined Agile Delivery (DAD) är ett hybrid-ramverk som utgör grunden för ett ännu bredare ramverk kallat Disciplined Agile Framework. DAD ger en samling verktyg för att skräddarsy en process för agil utveckling som passar in i de specifika omständigheterna som organisationen befinner sig i. Verktygen kommer från många andra etablerade metoder såsom Scrum, och är orsaken till att DAD kan kallas för ett hybrid-ramverk. Ramverkets specifika användningsändamål är därmed inte fastställt för att möjliggöra uppskalning, men dynamiken ger ramverket möjligheten att användas i detta syfte. Möjlighet till uppskalning listas i dokumentation som en av ramverkets största styrkor. \cite{dad_web}
 		
-		%todo iteration?
 		
 		
 		
